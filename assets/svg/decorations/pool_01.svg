@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-labelledby="pwTitle pwDesc">
+  <title id="pwTitle">Kolam Hias Resort</title>
+  <desc id="pwDesc">Kolam renang infinity berwarna turquoise dengan dek batu, kursi santai, payung, dan pohon palem. Digambar isometrik 2:1.</desc>
+  <defs>
+    <linearGradient id="pwDeckA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8cdb6"/>
+      <stop offset=".55" stop-color="#f4edde"/>
+      <stop offset="1" stop-color="#fffaf1"/>
+    </linearGradient>
+    <linearGradient id="pwDeckB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fffaf1"/>
+      <stop offset=".5" stop-color="#ece3d1"/>
+      <stop offset="1" stop-color="#cbbfa6"/>
+    </linearGradient>
+    <linearGradient id="pwWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8fbff"/>
+      <stop offset=".35" stop-color="#5fdbe8"/>
+      <stop offset=".8" stop-color="#1fa6c7"/>
+      <stop offset="1" stop-color="#0d7096"/>
+    </linearGradient>
+    <linearGradient id="pwWaterDeep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#45cadd"/>
+      <stop offset="1" stop-color="#0a5f83"/>
+    </linearGradient>
+    <linearGradient id="pwTrunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5e3c1c"/>
+      <stop offset=".6" stop-color="#a06c36"/>
+      <stop offset="1" stop-color="#d6a867"/>
+    </linearGradient>
+    <linearGradient id="pwFrondA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#86dd67"/>
+      <stop offset="1" stop-color="#2f8f43"/>
+    </linearGradient>
+    <linearGradient id="pwFrondB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#65c95a"/>
+      <stop offset="1" stop-color="#1f7237"/>
+    </linearGradient>
+    <linearGradient id="pwCushion" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffc37a"/>
+      <stop offset="1" stop-color="#e98d3d"/>
+    </linearGradient>
+    <radialGradient id="pwShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#173b2c" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#173b2c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pwGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#d8fdff" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#77e9f4" stop-opacity="0"/>
+    </radialGradient>
+    <g id="pwPalm">
+      <path d="M0 0C-1 -10 -3 -20 -1 -30" fill="none" stroke="url(#pwTrunk)" stroke-width="3.4" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".6">
+        <path d="M-1 -30C-12 -40 -22 -40 -28 -34C-16 -36 -8 -32 -2 -28Z" fill="url(#pwFrondB)"/>
+        <path d="M-1 -30C-8 -44 -18 -48 -26 -46C-15 -42 -7 -35 -1 -29Z" fill="url(#pwFrondA)"/>
+        <path d="M-1 -30C2 -44 0 -52 -5 -56C-5 -46 -3 -36 0 -28Z" fill="url(#pwFrondB)"/>
+        <path d="M-1 -30C10 -42 20 -44 27 -39C16 -36 7 -31 1 -28Z" fill="url(#pwFrondA)"/>
+        <path d="M-1 -30C12 -32 23 -28 28 -21C16 -25 7 -26 0 -28Z" fill="url(#pwFrondB)"/>
+      </g>
+      <circle cx="-2" cy="-28" r="1.8" fill="#c9932f" stroke="#223247" stroke-width=".5"/>
+      <circle cx="2" cy="-27" r="1.5" fill="#b07d26" stroke="#223247" stroke-width=".5"/>
+    </g>
+  </defs>
+
+  <ellipse cx="82" cy="145" rx="58" ry="15" fill="url(#pwShadow)"/>
+
+  <g id="deck" stroke="#223247" stroke-width="1.2" stroke-linejoin="round">
+    <polygon points="80,100 140,129 80,158 20,129" fill="url(#pwDeckB)"/>
+    <polygon points="80,104 134,129 80,153 26,129" fill="url(#pwDeckA)"/>
+    <path d="M26 129L80 153L134 129" fill="none" stroke="#c2b79d" stroke-width="1"/>
+    <path d="M40 121L84 100M56 131L106 105M68 140L128 110" stroke="#ddd3bf" stroke-width=".7" opacity=".8"/>
+    <path d="M120 121L76 100M104 131L54 105M92 140L32 110" stroke="#ddd3bf" stroke-width=".7" opacity=".8"/>
+  </g>
+
+  <g id="pool" stroke="#223247" stroke-width="1.4" stroke-linejoin="round">
+    <polygon points="80,108 132,130 80,152 28,130" fill="#bfdae1"/>
+    <polygon points="80,110 129,130 80,150 31,130" fill="url(#pwWater)"/>
+    <polygon points="80,115 123,130 80,145 37,130" fill="url(#pwWaterDeep)" opacity=".45"/>
+    <g fill="none" stroke="#eafdff" stroke-width=".85" opacity=".65">
+      <path d="M44 129C58 122 74 119 92 122C106 124 116 128 120 130"/>
+      <path d="M37 133C54 128 72 125 90 128C104 130 114 133 122 135" opacity=".7"/>
+      <path d="M53 138C66 133 80 132 94 135C104 137 112 140 118 141" opacity=".5"/>
+      <ellipse cx="62" cy="126" rx="9" ry="3.2"/>
+      <ellipse cx="98" cy="134" rx="7" ry="2.6"/>
+    </g>
+    <path d="M31 130L80 150L129 130" fill="none" stroke="#d7fbff" stroke-width="1.6" opacity=".85"/>
+    <path d="M35 133L80 151L125 133" fill="none" stroke="#0f6d8f" stroke-width="1" opacity=".55"/>
+    <path d="M80 110L129 130" fill="none" stroke="#ffffff" stroke-width="1.5" opacity=".55"/>
+    <ellipse cx="80" cy="128" rx="28" ry="9" fill="url(#pwGlow)" opacity=".7"/>
+
+    <g id="float-ring" transform="translate(64 136)">
+      <ellipse cx="0" cy="0" rx="8" ry="3.6" fill="#f7f0df" stroke="#223247" stroke-width="1"/>
+      <ellipse cx="0" cy="-1" rx="5.2" ry="2.2" fill="#ff8b8b"/>
+      <ellipse cx="0" cy="-1.2" rx="3" ry="1.2" fill="#f7f0df"/>
+    </g>
+    <g id="infinity-edge">
+      <path d="M28 130L80 108L132 130" fill="none" stroke="#f4fbfd" stroke-width="2.2" opacity=".8"/>
+      <path d="M31 134L80 112L129 134" fill="none" stroke="#bdf7ff" stroke-width=".8" opacity=".55"/>
+      <g fill="#e9ffff" opacity=".8">
+        <circle cx="52" cy="122" r=".9"/><circle cx="66" cy="116" r=".8"/>
+        <circle cx="96" cy="119" r=".9"/><circle cx="112" cy="125" r=".8"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="spa">
+    <ellipse cx="110" cy="137" rx="9" ry="4" fill="#e9e2d2" stroke="#223247" stroke-width="1"/>
+    <ellipse cx="110" cy="136.5" rx="6.5" ry="2.8" fill="#7ee6ef" stroke="#1b7fa6" stroke-width=".7"/>
+    <ellipse cx="110" cy="136" rx="3.5" ry="1.4" fill="#d8fdff" opacity=".8"/>
+  </g>
+
+  <g id="loungers" stroke="#223247" stroke-width=".9" stroke-linejoin="round">
+    <g transform="translate(112 120)">
+      <polygon points="-4,8 12,0 22,5 6,13" fill="#f7f2e6"/>
+      <polygon points="-1,6 12,0 18,3 5,9" fill="url(#pwCushion)"/>
+      <polygon points="12,0 20,-4 26,-1 18,3" fill="#f7f2e6"/>
+      <polygon points="14,-1 20,-4 23,-2.5 17,0.5" fill="url(#pwCushion)"/>
+      <path d="M-1 9L-1 13M20 11L20 15" stroke="#5c6c78" stroke-width="1.6"/>
+    </g>
+    <g transform="translate(118 132)">
+      <polygon points="-4,6 10,-1 19,4 5,11" fill="#f7f2e6"/>
+      <polygon points="-1,4 10,-1 15,1.5 4,7" fill="url(#pwCushion)" opacity=".85"/>
+      <path d="M-1 7L-1 11M17 9L17 13" stroke="#5c6c78" stroke-width="1.5"/>
+    </g>
+  </g>
+
+  <g id="umbrella">
+    <path d="M124 136V108" stroke="#6b5a3a" stroke-width="1.8"/>
+    <path d="M108 111C112 101 136 99 140 111C134 116 128 117 124 115C120 117 113 116 108 111Z" fill="#f4a261" stroke="#223247" stroke-width="1"/>
+    <path d="M112 111C116 103 124 101 128 101C124 105 120 109 118 113C115 113 113 112 112 111Z" fill="#fff5e2"/>
+    <path d="M130 102C134 104 137 107 138 110C135 111 132 112 129 111C130 108 130 105 130 102Z" fill="#fff5e2" opacity=".9"/>
+    <path d="M124 108V114" stroke="#8a641d" stroke-width=".8"/>
+  </g>
+
+  <use href="#pwPalm" transform="translate(30 126) scale(.9)"/>
+  <use href="#pwPalm" transform="translate(136 142) scale(.5)"/>
+  <g fill="#4daa5b" stroke="#223247" stroke-width=".6">
+    <path d="M44 132C41 127 43 123 47 121C47 126 46 130 44 132Z"/>
+    <path d="M104 146C101 141 103 137 107 135C107 140 106 144 104 146Z"/>
+  </g>
+</svg>

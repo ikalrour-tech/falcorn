@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="ccTitle ccDesc">
+  <title id="ccTitle">Pusat Konferensi Nusantara</title>
+  <desc id="ccDesc">Pusat konferensi dengan tiga atap kerang putih, dinding kaca, pintu lengkung emas, bendera, air mancur, dan pohon palem.</desc>
+
+  <defs>
+    <linearGradient id="ccShell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".6" stop-color="#f4ecdc"/>
+      <stop offset="1" stop-color="#d8c9ab"/>
+    </linearGradient>
+    <linearGradient id="ccShellShade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e7dcc7"/>
+      <stop offset="1" stop-color="#fffaf0"/>
+    </linearGradient>
+    <linearGradient id="ccGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b4d6c"/>
+      <stop offset=".55" stop-color="#1f8daa"/>
+      <stop offset="1" stop-color="#74dfe9"/>
+    </linearGradient>
+    <linearGradient id="ccGlass2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9af4fb"/>
+      <stop offset=".5" stop-color="#3bc1d5"/>
+      <stop offset="1" stop-color="#0e6d8c"/>
+    </linearGradient>
+    <linearGradient id="ccStoneLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cdc4b2"/>
+      <stop offset="1" stop-color="#f1e9da"/>
+    </linearGradient>
+    <linearGradient id="ccStoneRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#e1d7c5"/>
+    </linearGradient>
+    <linearGradient id="ccGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2b2"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+    <linearGradient id="ccWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b6f8ff"/>
+      <stop offset="1" stop-color="#2288ae"/>
+    </linearGradient>
+    <radialGradient id="ccShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="ccFloorsLeft" width="10" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0L10 5" stroke="#d5fbff" stroke-width=".7" opacity=".45"/>
+    </pattern>
+    <pattern id="ccFloorsRight" width="10" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 5L10 0" stroke="#f2ffff" stroke-width=".7" opacity=".5"/>
+    </pattern>
+    <g id="ccPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="84" cy="219" rx="63" ry="22" fill="url(#ccShadow)"/>
+    <path d="M80 190L146 219L80 239L14 209Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="plaza">
+    <path d="M80 181L136 208L80 235L24 208Z" fill="#efe7d3" stroke="#c9bda0" stroke-width="1.2"/>
+    <path d="M80 188L128 208L80 230L32 208Z" fill="none" stroke="#d8c79c" stroke-width="1.2" stroke-dasharray="4 4"/>
+    <path d="M80 196L112 208L80 221L48 208Z" fill="#faf4e5" stroke="#c9bda0" stroke-width="1"/>
+    <ellipse cx="112" cy="224" rx="15" ry="7" fill="url(#ccWater)" stroke="#223247" stroke-width="1.2"/>
+    <ellipse cx="112" cy="222" rx="11" ry="4.5" fill="#cff9ff" opacity=".7"/>
+    <path d="M112 221C109 215 112 209 116 206C116 213 115 217 112 221Z" fill="#e0fdff" opacity=".9"/>
+    <use href="#ccPalm" transform="translate(27 211) scale(.92)"/>
+    <use href="#ccPalm" transform="translate(134 204) scale(.82)"/>
+    <use href="#ccPalm" transform="translate(21 219) scale(.58)"/>
+    <path d="M60 220L72 214L79 217L67 223Z" fill="#8fd06a" opacity=".8"/>
+    <path d="M92 229L102 224L108 227L98 232Z" fill="#7fc369" opacity=".7"/>
+  </g>
+
+  <g id="conference-base" stroke="#223247" stroke-width="1.8" stroke-linejoin="round">
+    <polygon points="28,192 80,218 80,232 28,206" fill="url(#ccStoneLeft)"/>
+    <polygon points="80,218 132,192 132,206 80,232" fill="url(#ccStoneRight)"/>
+    <polygon points="80,166 132,192 80,218 28,192" fill="#fffdf7"/>
+    <path d="M28 192L80 218L132 192" fill="none" stroke="url(#ccGold)" stroke-width="2.3"/>
+
+    <polygon points="34,190 80,213 80,188 34,166" fill="url(#ccGlass)"/>
+    <polygon points="80,213 126,190 126,166 80,188" fill="url(#ccGlass2)"/>
+    <polygon points="34,190 80,213 80,188 34,166" fill="url(#ccFloorsLeft)"/>
+    <polygon points="80,213 126,190 126,166 80,188" fill="url(#ccFloorsRight)"/>
+    <g stroke="#effeff" stroke-width=".7" opacity=".45">
+      <path d="M44 186V214M54 181V209M64 177V204M74 172V199"/>
+      <path d="M86 210V186M96 205V181M106 201V177M116 196V173"/>
+    </g>
+
+    <path d="M72 203C72 188 88 188 88 203L88 216L72 223Z" fill="#123f5b"/>
+    <path d="M72 203C72 188 88 188 88 203" fill="none" stroke="url(#ccGold)" stroke-width="2"/>
+    <path d="M72 216L88 209" stroke="#f0d27a" stroke-width="1.3"/>
+    <path d="M74 214L86 209L86 220L74 226Z" fill="#5bdbe9" opacity=".55"/>
+    <path d="M66 201L94 187L100 191L72 205Z" fill="url(#ccGold)" stroke="#8a641d" stroke-width="1"/>
+    <path d="M82 211L82 216" stroke="#fff" stroke-width="1.6"/>
+    <path d="M84 218L110 206L110 211L84 223Z" fill="#f8f2e3" stroke="#b9a57d" stroke-width=".8"/>
+    <path d="M86 214L106 204L106 207L86 217Z" fill="#efe8d8" stroke="#b9a57d" stroke-width=".7"/>
+  </g>
+
+  <g id="shell-roofs">
+    <path d="M34 166C46 130 70 108 88 100C78 130 76 156 80 186C64 174 48 170 34 166Z" fill="url(#ccShell)" stroke="#223247" stroke-width="1.8"/>
+    <path d="M34 166C46 130 70 108 88 100" fill="none" stroke="url(#ccGold)" stroke-width="2.2"/>
+    <path d="M44 163C56 138 70 122 82 112C76 136 74 154 76 174C66 166 55 163 44 163Z" fill="#8beff8" opacity=".45"/>
+
+    <path d="M66 154C78 112 102 88 118 82C108 116 106 146 110 178C96 164 81 157 66 154Z" fill="url(#ccShellShade)" stroke="#223247" stroke-width="1.8"/>
+    <path d="M66 154C78 112 102 88 118 82" fill="none" stroke="url(#ccGold)" stroke-width="2.2"/>
+    <path d="M76 151C86 122 99 105 110 95C104 122 103 146 106 166C96 156 86 152 76 151Z" fill="#8beff8" opacity=".4"/>
+
+    <path d="M100 160C108 132 124 114 136 108C130 134 128 156 130 180C120 168 110 163 100 160Z" fill="url(#ccShell)" stroke="#223247" stroke-width="1.8"/>
+    <path d="M100 160C108 132 124 114 136 108" fill="none" stroke="url(#ccGold)" stroke-width="2"/>
+    <path d="M108 158C114 138 124 124 130 118C126 138 125 154 126 169C119 163 113 160 108 158Z" fill="#8beff8" opacity=".4"/>
+
+    <g fill="none" stroke="#ffffff" stroke-width=".8" opacity=".55">
+      <path d="M50 156C60 135 70 122 82 112M60 160C68 144 76 132 85 123"/>
+      <path d="M82 146C91 121 102 103 112 94M92 151C98 133 104 119 111 109"/>
+      <path d="M114 155C120 137 126 124 132 116"/>
+    </g>
+    <path d="M88 100V90" stroke="#b8862f" stroke-width="1.5"/>
+    <circle cx="88" cy="87" r="2.2" fill="#ffe9a1" stroke="#b8862f" stroke-width=".7"/>
+  </g>
+
+  <g id="conference-banners">
+    <path d="M118 181V158" stroke="#223247" stroke-width="1.3"/>
+    <path d="M118 158L128 161L118 165Z" fill="#2a9d8f" stroke="#223247" stroke-width=".6"/>
+    <path d="M118 162L128 165L118 169Z" fill="#7fe7f4" stroke="#223247" stroke-width=".6"/>
+    <path d="M42 182V159" stroke="#223247" stroke-width="1.3"/>
+    <path d="M42 159L52 162L42 166Z" fill="#e63946" stroke="#223247" stroke-width=".6"/>
+    <path d="M42 163L52 166L42 170Z" fill="#fff" stroke="#223247" stroke-width=".6"/>
+  </g>
+
+  <g id="glints" fill="#ffffff" opacity=".65">
+    <rect x="48" y="182" width="5" height="2" transform="rotate(27 48 182)"/>
+    <rect x="95" y="197" width="5" height="2" transform="rotate(-27 95 197)"/>
+    <rect x="68" y="193" width="4" height="2" transform="rotate(27 68 193)"/>
+  </g>
+</svg>

@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200" width="160" height="200" role="img" aria-labelledby="maTitle maDesc">
+  <title id="maTitle">Marina Nusantara — dermaga yacht modern</title>
+  <desc id="maDesc">Marina modern dengan dermaga terapung putih, yacht layar, kapal motor, klub kaca, pohon palem, lampu emas, dan air laut biru.</desc>
+
+  <defs>
+    <linearGradient id="maWater" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5fd2e6"/>
+      <stop offset=".55" stop-color="#39a8cb"/>
+      <stop offset="1" stop-color="#227fae"/>
+    </linearGradient>
+    <linearGradient id="maDock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf7"/>
+      <stop offset="1" stop-color="#e7ddc8"/>
+    </linearGradient>
+    <linearGradient id="maDockSide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8cbb2"/>
+      <stop offset="1" stop-color="#b9a98d"/>
+    </linearGradient>
+    <linearGradient id="maGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b4c69"/>
+      <stop offset=".55" stop-color="#1b8eaa"/>
+      <stop offset="1" stop-color="#7ce9f1"/>
+    </linearGradient>
+    <linearGradient id="maGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2b2"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+    <linearGradient id="maHull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".6" stop-color="#f4f2ea"/>
+      <stop offset="1" stop-color="#cfd6dd"/>
+    </linearGradient>
+    <linearGradient id="maSail" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".65" stop-color="#fff7e5"/>
+      <stop offset="1" stop-color="#e7d9bf"/>
+    </linearGradient>
+    <radialGradient id="maShade" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#123e50" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#123e50" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="maWaterClip"><path d="M80 109L142 140L80 171L18 140Z"/></clipPath>
+    <g id="maPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+    <g id="maLamp">
+      <path d="M0 0V-17" stroke="#223247" stroke-width="1.4"/>
+      <path d="M-3 -17L3 -17L2 -21L-2 -21Z" fill="#ffe9a1" stroke="#223247" stroke-width=".6"/>
+      <circle cx="0" cy="-19" r="4" fill="rgba(255,215,110,.3)"/>
+    </g>
+  </defs>
+
+  <g id="water">
+    <path d="M80 109L142 140L80 171L18 140Z" fill="url(#maWater)" stroke="#217394" stroke-width="1.4"/>
+    <g clip-path="url(#maWaterClip)">
+      <path d="M22 141C34 133 44 143 55 137M48 156C60 148 70 158 82 152M98 133C108 126 116 134 128 127M70 164C82 157 92 166 104 160" fill="none" stroke="#d4fbfd" stroke-width="1.2" opacity=".55"/>
+      <path d="M26 147C40 140 50 150 64 143M84 164C96 158 108 166 124 158" fill="none" stroke="#ffffff" stroke-width=".8" opacity=".35"/>
+      <ellipse cx="112" cy="142" rx="22" ry="5" fill="url(#maShade)"/>
+      <ellipse cx="58" cy="152" rx="19" ry="4" fill="url(#maShade)"/>
+    </g>
+  </g>
+
+  <g id="docks" stroke="#223247" stroke-width="1.3" stroke-linejoin="round">
+    <path d="M22 144L80 171L128 144L118 139L80 158L32 139Z" fill="url(#maDockSide)"/>
+    <path d="M22 140L80 167L128 140L118 135L80 154L32 135Z" fill="url(#maDock)"/>
+    <path d="M22 140L80 167L128 140" fill="none" stroke="url(#maGold)" stroke-width="1.8"/>
+    <path d="M32 135L80 154L118 135" fill="none" stroke="#c9a227" stroke-width="1" opacity=".75"/>
+    <g stroke="#cdbfa6" stroke-width=".7" opacity=".8">
+      <path d="M34 139L38 141M46 146L50 148M58 152L62 154M74 159L78 161M88 159L92 157M102 154L106 152M114 148L118 146M122 143L126 141"/>
+    </g>
+    <g fill="url(#maGold)" stroke="#8a641d" stroke-width=".5">
+      <circle cx="42" cy="142" r="1.3"/><circle cx="70" cy="155" r="1.3"/>
+      <circle cx="96" cy="153" r="1.3"/><circle cx="118" cy="141" r="1.3"/>
+    </g>
+
+    <path d="M58 148L64 145L80 153L74 156Z" fill="#fdf9ef" stroke="#223247" stroke-width="1"/>
+    <path d="M58 148L64 145L64 148L58 151Z" fill="#cfc1a5" stroke="#223247" stroke-width=".7"/>
+    <path d="M88 147L94 144L110 152L104 155Z" fill="#fdf9ef" stroke="#223247" stroke-width="1"/>
+    <path d="M88 147L94 144L94 147L88 150Z" fill="#cfc1a5" stroke="#223247" stroke-width=".7"/>
+  </g>
+
+  <g id="clubhouse">
+    <ellipse cx="42" cy="139" rx="18" ry="8" fill="url(#maShade)"/>
+    <path d="M26 136L42 128L58 136L42 144Z" fill="#f8f3e7" stroke="#223247" stroke-width="1.1"/>
+    <path d="M29 136L42 143L55 136" fill="none" stroke="#c9a227" stroke-width="1"/>
+    <path d="M31 133L42 127L53 133L42 139Z" fill="url(#maGlass)" stroke="#223247" stroke-width="1.1"/>
+    <path d="M31 133V139L42 145V139Z" fill="#1c7894" opacity=".9" stroke="#223247" stroke-width=".9"/>
+    <path d="M42 139V145L53 139V133Z" fill="#69dfe9" opacity=".85" stroke="#223247" stroke-width=".9"/>
+    <path d="M42 127L42 139" stroke="#eafeff" stroke-width=".6" opacity=".6"/>
+    <path d="M22 133C28 122 38 116 50 118C58 120 62 126 62 134C52 127 38 126 22 133Z" fill="#ffffff" stroke="#223247" stroke-width="1.4"/>
+    <path d="M22 133C28 122 38 116 50 118" fill="none" stroke="url(#maGold)" stroke-width="1.7"/>
+    <path d="M42 118V109" stroke="#b8862f" stroke-width="1.2"/>
+    <circle cx="42" cy="107" r="1.7" fill="#ffe9a1" stroke="#b8862f" stroke-width=".6"/>
+    <path d="M34 137L34 142" stroke="#223247" stroke-width="1.2"/>
+    <path d="M50 137L50 142" stroke="#223247" stroke-width="1.2"/>
+    <path d="M35 135L42 139L49 135" fill="none" stroke="#8feaf5" stroke-width=".7" opacity=".8"/>
+    <path d="M55 132V120" stroke="#223247" stroke-width="1.1"/>
+    <path d="M55 120L60 122L55 124Z" fill="#e9c46a" stroke="#223247" stroke-width=".5"/>
+  </g>
+
+  <g id="sail-yacht">
+    <path d="M78 131C88 142 118 145 128 134L120 128C108 134 90 134 78 128Z" fill="url(#maHull)" stroke="#223247" stroke-width="1.5"/>
+    <path d="M82 136C92 143 116 144 126 136L122 142C112 147 92 146 84 141Z" fill="#173c55" stroke="#223247" stroke-width="1"/>
+    <path d="M85 138C96 142 114 142 123 137" fill="none" stroke="#5ddbe9" stroke-width="1.1" opacity=".8"/>
+    <path d="M96 130L116 128L112 123L98 125Z" fill="#ffffff" stroke="#223247" stroke-width=".9"/>
+    <path d="M99 126L112 125" stroke="#59d8e7" stroke-width="1.2"/>
+    <path d="M92 128L92 121L100 118L108 121L108 127" fill="#f7f7f2" stroke="#223247" stroke-width=".8"/>
+    <path d="M94 123L100 121L106 123L106 125L94 125Z" fill="#1c6f8e" stroke="#223247" stroke-width=".5"/>
+    <path d="M100 121V61" stroke="#223247" stroke-width="1.3"/>
+    <path d="M100 121V61" stroke="#f8f4ea" stroke-width=".7"/>
+    <path d="M99 65C86 85 81 106 82 126L98 120Z" fill="url(#maSail)" stroke="#223247" stroke-width="1.1"/>
+    <path d="M102 70C114 90 120 110 120 128L104 124Z" fill="#f7f1e1" opacity=".9" stroke="#223247" stroke-width=".9"/>
+    <path d="M88 110C94 97 98 82 100 68" fill="none" stroke="#7fe7f4" stroke-width=".8" opacity=".7"/>
+    <path d="M100 61V53" stroke="#b8862f" stroke-width="1"/>
+    <path d="M100 54L108 57L100 60Z" fill="#e63946" stroke="#223247" stroke-width=".4"/>
+    <path d="M80 130C86 133 98 134 110 133" fill="none" stroke="#ffffff" stroke-width=".7" opacity=".65"/>
+    <path d="M84 144C94 148 112 148 122 143" fill="none" stroke="#d0f9ff" stroke-width=".9" opacity=".5"/>
+  </g>
+
+  <g id="motor-yacht">
+    <path d="M34 146C44 154 66 157 76 148L70 142C60 148 46 148 34 143Z" fill="url(#maHull)" stroke="#223247" stroke-width="1.4"/>
+    <path d="M37 149C46 154 64 155 73 149L70 154C60 158 47 157 40 153Z" fill="#173c55" stroke="#223247" stroke-width=".9"/>
+    <path d="M58 144L70 142L71 136L60 138Z" fill="#ffffff" stroke="#223247" stroke-width=".8"/>
+    <path d="M61 140L69 139L69 137L62 138Z" fill="#1b6f8d" stroke="#223247" stroke-width=".4"/>
+    <path d="M52 145L62 143L62 138L52 140Z" fill="#f6f6f1" stroke="#223247" stroke-width=".8"/>
+    <path d="M54 141L61 140" stroke="#59d8e7" stroke-width="1"/>
+    <path d="M62 139L62 130" stroke="#223247" stroke-width=".9"/>
+    <path d="M62 130L67 132L62 134Z" fill="#e9c46a" stroke="#223247" stroke-width=".4"/>
+    <path d="M38 152C48 156 62 157 72 152" fill="none" stroke="#5ddbe9" stroke-width="1" opacity=".8"/>
+    <path d="M37 157C48 161 64 161 75 156" fill="none" stroke="#d0f9ff" stroke-width=".8" opacity=".45"/>
+  </g>
+
+  <g id="marina-detail">
+    <use href="#maPalm" transform="translate(30 138) scale(.78)"/>
+    <use href="#maPalm" transform="translate(124 133) scale(.82)"/>
+    <use href="#maPalm" transform="translate(84 163) scale(.6)"/>
+    <use href="#maLamp" transform="translate(48 143)"/>
+    <use href="#maLamp" transform="translate(112 139)"/>
+    <path d="M70 135C74 133 78 135 80 138" fill="none" stroke="#fff" stroke-width=".7" opacity=".55"/>
+    <path d="M28 151C36 148 42 151 48 149" fill="none" stroke="#d7fbff" stroke-width=".8" opacity=".45"/>
+    <circle cx="104" cy="144" r="2.2" fill="none" stroke="#fff" stroke-width=".8" opacity=".6"/>
+    <circle cx="116" cy="137" r="1.7" fill="none" stroke="#d7fbff" stroke-width=".7" opacity=".5"/>
+  </g>
+</svg>

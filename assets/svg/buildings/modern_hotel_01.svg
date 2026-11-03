@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="htTitle htDesc">
+  <title id="htTitle">Hotel Bintang Laut — hotel mewah lengkung</title>
+  <desc id="htDesc">Hotel berbentuk layar dengan balkon putih, kaca cyan, aksen emas, kolam, air mancur, dan pohon palem. Digambar isometrik 2:1.</desc>
+
+  <defs>
+    <linearGradient id="htCream" x1="0" y1="0" x2="1" y2=".35">
+      <stop offset="0" stop-color="#fffdf4"/>
+      <stop offset=".55" stop-color="#f5ead1"/>
+      <stop offset="1" stop-color="#dcc9a5"/>
+    </linearGradient>
+    <linearGradient id="htCreamShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8e8"/>
+      <stop offset="1" stop-color="#e9d9b8"/>
+    </linearGradient>
+    <linearGradient id="htGlass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a5f4fb"/>
+      <stop offset=".4" stop-color="#43c8df"/>
+      <stop offset=".78" stop-color="#1682ab"/>
+      <stop offset="1" stop-color="#0b587c"/>
+    </linearGradient>
+    <linearGradient id="htGlassEdge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#147699"/>
+      <stop offset="1" stop-color="#79e6f2"/>
+    </linearGradient>
+    <linearGradient id="htStoneLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d3c6ab"/>
+      <stop offset="1" stop-color="#f1e7d1"/>
+    </linearGradient>
+    <linearGradient id="htStoneRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff9e9"/>
+      <stop offset="1" stop-color="#e2d3b3"/>
+    </linearGradient>
+    <linearGradient id="htGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff1b0"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+    <linearGradient id="htWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aef6ff"/>
+      <stop offset=".5" stop-color="#43c1dd"/>
+      <stop offset="1" stop-color="#1f81a9"/>
+    </linearGradient>
+    <radialGradient id="htShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="htBeacon" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff8c4"/>
+      <stop offset=".4" stop-color="#ffd76a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffd76a" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="htCreamClip">
+      <path d="M36 198C22 146 34 86 70 42C58 102 88 168 80 216Z"/>
+    </clipPath>
+    <clipPath id="htGlassClip">
+      <path d="M80 216C88 168 58 102 70 42C96 78 118 136 124 198Z"/>
+    </clipPath>
+
+    <pattern id="htGlassFloors" width="9" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 5L9 0" stroke="#ecffff" stroke-width=".65" opacity=".5"/>
+    </pattern>
+
+    <g id="htPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="84" cy="217" rx="60" ry="21" fill="url(#htShadow)"/>
+    <path d="M80 189L144 218L80 238L16 208Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="plaza">
+    <path d="M80 182L132 207L80 234L28 207Z" fill="#efe7d3" stroke="#c9bda0" stroke-width="1.2"/>
+    <path d="M80 187L126 207L80 230L34 207Z" fill="none" stroke="#d8c79c" stroke-width="1.3" stroke-dasharray="4 4"/>
+    <path d="M80 196L112 207L80 221L48 207Z" fill="#f9f3e3" stroke="#c9bda0" stroke-width="1"/>
+    <ellipse cx="109" cy="223" rx="16" ry="7.5" fill="url(#htWater)" stroke="#223247" stroke-width="1.2"/>
+    <ellipse cx="109" cy="221" rx="12" ry="5" fill="#c7f8ff" opacity=".7"/>
+    <path d="M109 220C106 214 109 208 113 205C113 212 112 216 109 220Z" fill="#d7fbff" opacity=".9"/>
+    <ellipse cx="109" cy="224" rx="3.5" ry="1.5" fill="#fff" opacity=".65"/>
+    <use href="#htPalm" transform="translate(28 210) scale(.98)"/>
+    <use href="#htPalm" transform="translate(133 203) scale(.8)"/>
+    <use href="#htPalm" transform="translate(22 218) scale(.6)"/>
+  </g>
+
+  <g id="podium" stroke="#223247" stroke-width="1.7" stroke-linejoin="round">
+    <polygon points="30,196 80,221 80,233 30,208" fill="url(#htStoneLeft)"/>
+    <polygon points="80,221 130,196 130,208 80,233" fill="url(#htStoneRight)"/>
+    <polygon points="80,171 130,196 80,221 30,196" fill="#fffaee"/>
+    <path d="M30 196L80 221L130 196" fill="none" stroke="url(#htGold)" stroke-width="2.2"/>
+    <path d="M32 207L80 231L128 207" fill="none" stroke="#c9a227" stroke-width="1.1" opacity=".8"/>
+    <path d="M76 209C84 205 99 202 106 206L101 217C94 213 84 215 79 221Z" fill="#12435f"/>
+    <path d="M79 210L101 200L107 205L85 216Z" fill="url(#htGold)" stroke="#8a641d" stroke-width="1"/>
+    <path d="M84 212L94 207L94 219L84 224Z" fill="#5ddbe9" opacity=".75"/>
+    <path d="M82 168L96 175L80 183L66 175Z" fill="#e9c46a" stroke="#8a641d" stroke-width=".8"/>
+    <path d="M38 201L48 196L48 204L38 209Z" fill="#7fe7f4" opacity=".8"/>
+    <path d="M112 200L122 195L122 202L112 207Z" fill="#7fe7f4" opacity=".8"/>
+    <path d="M119 191L130 185" fill="none" stroke="#fff8e8" stroke-width="2"/>
+  </g>
+
+  <g id="hotel-tower">
+    <path d="M36 198C22 146 34 86 70 42C58 102 88 168 80 216Z" fill="url(#htCream)" stroke="#223247" stroke-width="1.9" stroke-linejoin="round"/>
+    <path d="M80 216C88 168 58 102 70 42C96 78 118 136 124 198Z" fill="url(#htGlass)" stroke="#223247" stroke-width="1.9" stroke-linejoin="round"/>
+
+    <g clip-path="url(#htCreamClip)">
+      <path d="M16 182C50 196 90 180 122 154" fill="none" stroke="#c9b48b" stroke-width="1.2" opacity=".7"/>
+      <path d="M16 166C50 182 92 168 120 140" fill="none" stroke="#fffef8" stroke-width="2"/>
+      <path d="M16 150C52 168 94 154 118 126" fill="none" stroke="#fffef8" stroke-width="2"/>
+      <path d="M18 134C54 152 94 140 114 112" fill="none" stroke="#fffef8" stroke-width="2"/>
+      <path d="M22 118C56 136 92 126 112 98" fill="none" stroke="#fffef8" stroke-width="2"/>
+      <path d="M28 102C58 118 90 108 108 82" fill="none" stroke="#fffef8" stroke-width="2"/>
+      <path d="M34 86C60 100 86 94 102 68" fill="none" stroke="#fffef8" stroke-width="1.7"/>
+      <path d="M42 72C62 82 82 78 94 58" fill="none" stroke="#fffef8" stroke-width="1.5"/>
+
+      <path d="M40 174C56 180 72 176 88 166L88 170C72 180 54 184 40 178Z" fill="#55cfe3" opacity=".9"/>
+      <path d="M44 158C60 164 74 160 90 150L90 154C74 164 58 168 44 162Z" fill="#55cfe3" opacity=".82"/>
+      <path d="M48 142C62 148 76 144 90 134L90 138C76 148 62 152 48 146Z" fill="#55cfe3" opacity=".72"/>
+      <path d="M52 126C64 132 76 128 88 118L88 122C76 132 64 136 52 130Z" fill="#55cfe3" opacity=".64"/>
+      <path d="M56 110C66 115 76 112 86 104L86 108C76 116 66 119 56 114Z" fill="#55cfe3" opacity=".56"/>
+      <path d="M60 94C68 98 76 96 84 90L84 94C76 100 68 102 60 98Z" fill="#55cfe3" opacity=".46"/>
+
+      <g stroke="#f0dca9" stroke-width=".7" opacity=".9">
+        <path d="M42 174L42 178M52 176L52 180M62 175L62 179M72 172L72 176M82 168L82 172"/>
+        <path d="M46 158L46 162M56 160L56 164M66 159L66 163M76 155L76 159M86 151L86 155"/>
+        <path d="M50 142L50 146M60 144L60 148M70 143L70 147M80 139L80 143"/>
+      </g>
+
+      <path d="M30 196C40 154 40 96 70 44L78 48C54 104 52 158 48 192Z" fill="#ffffff" opacity=".25"/>
+    </g>
+
+    <g clip-path="url(#htGlassClip)">
+      <path d="M80 216C88 168 58 102 70 42C96 78 118 136 124 198Z" fill="url(#htGlassFloors)"/>
+      <g stroke="#e9feff" stroke-width=".8" opacity=".38">
+        <path d="M74 200V60M84 190V58M94 172V68M104 148V84M114 120V106"/>
+      </g>
+      <path d="M80 205C88 162 64 106 72 54C92 86 110 138 116 190Z" fill="#d8fbff" opacity=".13"/>
+      <path d="M83 210C90 168 70 112 74 62C90 96 106 142 111 190Z" fill="#4ee0f0" opacity=".18"/>
+      <path d="M86 202C92 168 78 122 78 86" fill="none" stroke="#e9feff" stroke-width="1.1" opacity=".6"/>
+      <path d="M90 186C96 154 88 120 86 100" fill="none" stroke="#e9feff" stroke-width=".9" opacity=".45"/>
+    </g>
+
+    <g id="hotel-rim" fill="none" stroke-linecap="round">
+      <path d="M36 198C22 146 34 86 70 42" stroke="#223247" stroke-width="2.3"/>
+      <path d="M36 198C22 146 34 86 70 42" stroke="#fffdf3" stroke-width="1.1"/>
+      <path d="M70 42C58 102 88 168 80 216" stroke="#223247" stroke-width="2.6"/>
+      <path d="M70 42C58 102 88 168 80 216" stroke="url(#htGold)" stroke-width="1.6"/>
+      <path d="M70 42C96 78 118 136 124 198" stroke="#223247" stroke-width="2.3"/>
+      <path d="M70 42C96 78 118 136 124 198" stroke="#c9f7ff" stroke-width="1.1" opacity=".9"/>
+    </g>
+
+    <g id="hotel-crown">
+      <path d="M66 45C68 37 74 33 80 32C76 38 74 42 72 48Z" fill="url(#htGold)" stroke="#223247" stroke-width="1"/>
+      <path d="M70 42V22" stroke="#b8862f" stroke-width="2"/>
+      <path d="M70 42V22" stroke="#ffe9a1" stroke-width=".8"/>
+      <circle cx="70" cy="20" r="9" fill="url(#htBeacon)" opacity=".85"/>
+      <circle cx="70" cy="20" r="2.2" fill="#fff8c4" stroke="#b8862f" stroke-width=".8"/>
+      <path d="M60 50C66 45 74 44 80 46C72 48 66 52 62 57Z" fill="#fffdf3" stroke="#223247" stroke-width=".8"/>
+      <path d="M62 54C68 50 75 50 80 52" fill="none" stroke="#e9c46a" stroke-width=".9"/>
+      <path d="M64 58L76 53L74 58L66 62Z" fill="#55cfe3" opacity=".8" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </g>
+
+  <g id="glints" fill="#ffffff" opacity=".65">
+    <rect x="88" y="120" width="5" height="2" transform="rotate(-38 88 120)"/>
+    <rect x="97" y="143" width="4" height="2" transform="rotate(-38 97 143)"/>
+    <rect x="74" y="80" width="4" height="2" transform="rotate(-42 74 80)"/>
+  </g>
+</svg>

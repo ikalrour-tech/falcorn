@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 80" width="132" height="80" role="img" aria-labelledby="rdTitle rdDesc">
+  <title id="rdTitle">Jalan Raya Modern</title>
+  <desc id="rdDesc">Petak aspal isometrik dengan tekstur halus, tepi trotoar, dan marka yang digambar oleh mesin permainan.</desc>
+  <defs>
+    <linearGradient id="rdAsphalt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b939d"/>
+      <stop offset=".45" stop-color="#737c86"/>
+      <stop offset="1" stop-color="#5f6872"/>
+    </linearGradient>
+    <linearGradient id="rdInner" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7d8690"/>
+      <stop offset=".5" stop-color="#6a737d"/>
+      <stop offset="1" stop-color="#79828c"/>
+    </linearGradient>
+    <clipPath id="rdClip">
+      <polygon points="66,13 122,40 66,67 10,40"/>
+    </clipPath>
+  </defs>
+  <polygon points="66,10 125,40 66,70 7,40" fill="#4a535c"/>
+  <polygon points="66,13 122,40 66,67 10,40" fill="url(#rdAsphalt)"/>
+  <polygon points="66,16 118,40 66,64 14,40" fill="url(#rdInner)"/>
+  <g clip-path="url(#rdClip)" opacity=".22" fill="#2f3942">
+    <circle cx="30" cy="40" r="1"/><circle cx="44" cy="30" r=".8"/><circle cx="58" cy="21" r=".9"/>
+    <circle cx="72" cy="52" r=".8"/><circle cx="88" cy="46" r="1"/><circle cx="104" cy="34" r=".7"/>
+    <circle cx="52" cy="50" r=".7"/><circle cx="80" cy="34" r=".6"/><circle cx="96" cy="55" r=".8"/>
+    <circle cx="36" cy="48" r=".6"/><circle cx="64" cy="40" r=".7"/><circle cx="110" cy="42" r=".6"/>
+  </g>
+  <g fill="none" stroke="#aab3bb" stroke-width=".7" opacity=".35">
+    <path d="M66 17L117 40L66 63L15 40Z"/>
+  </g>
+  <g fill="none" stroke="#d6dde2" stroke-width=".5" opacity=".22">
+    <path d="M26 36L46 27M36 45L60 34M78 51L102 40M86 42L108 32"/>
+  </g>
+</svg>

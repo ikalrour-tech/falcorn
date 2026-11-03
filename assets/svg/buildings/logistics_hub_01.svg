@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="lgTitle lgDesc">
+  <title id="lgTitle">Pusat Logistik Nusantara</title>
+  <desc id="lgDesc">Gudang logistik modern dengan dermaga muat, tumpukan kontainer warna, derek gantry, truk, atap skylight, dan pohon palem.</desc>
+
+  <defs>
+    <linearGradient id="lgWallLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b8c0ca"/>
+      <stop offset="1" stop-color="#e7edf3"/>
+    </linearGradient>
+    <linearGradient id="lgWallRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbfcfe"/>
+      <stop offset="1" stop-color="#ccd5df"/>
+    </linearGradient>
+    <linearGradient id="lgRoof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9e0e8"/>
+    </linearGradient>
+    <linearGradient id="lgGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#145f7e"/>
+      <stop offset=".55" stop-color="#2e9bb6"/>
+      <stop offset="1" stop-color="#8ce8f1"/>
+    </linearGradient>
+    <linearGradient id="lgGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2b2"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+    <linearGradient id="lgAsphalt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4cad2"/>
+      <stop offset="1" stop-color="#a8b0ba"/>
+    </linearGradient>
+    <radialGradient id="lgShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+    <g id="lgPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="84" cy="219" rx="63" ry="21" fill="url(#lgShadow)"/>
+    <path d="M80 190L146 219L80 238L14 209Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="logistics-yard">
+    <path d="M80 183L135 208L80 234L25 208Z" fill="url(#lgAsphalt)" stroke="#8e97a3" stroke-width="1.2"/>
+    <path d="M80 190L127 208L80 228L33 208Z" fill="none" stroke="#f0d060" stroke-width="1" stroke-dasharray="5 5" opacity=".7"/>
+    <use href="#lgPalm" transform="translate(31 210) scale(.8)"/>
+    <use href="#lgPalm" transform="translate(132 203) scale(.7)"/>
+  </g>
+
+  <g id="warehouse" stroke="#223247" stroke-width="1.8" stroke-linejoin="round">
+    <polygon points="40,190 80,210 80,228 40,208" fill="url(#lgWallLeft)"/>
+    <polygon points="80,210 120,190 120,208 80,228" fill="url(#lgWallRight)"/>
+    <polygon points="80,168 120,188 80,208 40,188" fill="url(#lgRoof)"/>
+    <polygon points="80,170 114,187 80,204 46,187" fill="#f8fbfd" opacity=".9"/>
+    <g fill="#b9e7f1" stroke="#5da7ba" stroke-width=".6">
+      <path d="M56 185L68 179L78 184L66 190Z"/>
+      <path d="M70 178L84 171L94 176L80 183Z"/>
+      <path d="M86 170L100 177L108 181L94 174Z"/>
+    </g>
+    <path d="M40 188L80 208L120 188" fill="none" stroke="url(#lgGold)" stroke-width="1.8"/>
+    <path d="M40 190L80 210L120 190" fill="none" stroke="#f6f9fc" stroke-width="1"/>
+
+    <g id="loading-bays" fill="#2b3745">
+      <path d="M52 201L62 196L62 215L52 220Z"/>
+      <path d="M66 204L76 199L76 218L66 223Z"/>
+      <path d="M88 199L98 204L98 222L88 217Z"/>
+      <path d="M102 195L112 200L112 218L102 213Z"/>
+    </g>
+    <g stroke="#f0d060" stroke-width=".8" opacity=".8">
+      <path d="M56 200V217M70 203V220M92 202V219M106 198V215"/>
+    </g>
+    <path d="M80 210L96 202L96 209L80 217Z" fill="#cbd3dc" stroke="#223247" stroke-width=".8"/>
+    <path d="M82 211L94 205" stroke="#fff" stroke-width="1.2"/>
+  </g>
+
+  <g id="gantry-crane" stroke="#223247" stroke-linejoin="round">
+    <path d="M110 207V166" stroke="#b8862f" stroke-width="2.6"/>
+    <path d="M126 199V158" stroke="#b8862f" stroke-width="2.6"/>
+    <path d="M106 166L130 156" stroke="#e9c46a" stroke-width="4"/>
+    <path d="M106 166L130 156" stroke="#fff3b8" stroke-width="1.2"/>
+    <path d="M120 159V183" stroke="#223247" stroke-width=".9"/>
+    <path d="M116 183L124 183L122 188L118 188Z" fill="#e9c46a" stroke="#223247" stroke-width=".8"/>
+    <path d="M112 206L128 198" stroke="#223247" stroke-width="1"/>
+    <path d="M130 156L136 160" stroke="#e9c46a" stroke-width="2"/>
+  </g>
+
+  <g id="containers" stroke="#223247" stroke-width=".8">
+    <path d="M46 212L58 206L70 212L58 218Z" fill="#2a9d8f"/>
+    <path d="M58 218L70 212L70 219L58 225Z" fill="#1d7a70"/>
+    <path d="M46 212L58 218L58 225L46 219Z" fill="#2a9d8f"/>
+    <path d="M58 206L70 212L70 219L58 213Z" fill="#37b8a8" opacity=".8"/>
+    <path d="M58 204L70 198L82 204L70 210Z" fill="#e05a2b"/>
+    <path d="M70 210L82 204L82 211L70 217Z" fill="#b84420"/>
+    <path d="M58 204L70 210L70 217L58 211Z" fill="#e05a2b"/>
+    <path d="M70 198L82 204L82 211L70 205Z" fill="#f0703f" opacity=".8"/>
+    <path d="M52 204L64 198L76 204L64 210Z" fill="#e9c46a"/>
+    <path d="M64 210L76 204L76 211L64 217Z" fill="#c9a53f"/>
+    <path d="M52 204L64 210L64 217L52 211Z" fill="#e9c46a"/>
+    <path d="M64 198L76 204L76 211L64 205Z" fill="#f4d988" opacity=".8"/>
+    <g stroke="#223247" stroke-width=".4" opacity=".5">
+      <path d="M50 213V220M54 211V218M62 216V223M66 214V221"/>
+    </g>
+  </g>
+
+  <g id="delivery-truck">
+    <path d="M34 216L58 204L70 210L46 222Z" fill="#f6f9fc" stroke="#223247" stroke-width=".9"/>
+    <path d="M46 222L70 210L70 217L46 229Z" fill="#d5dce4" stroke="#223247" stroke-width=".9"/>
+    <path d="M58 204L66 200L78 206L70 210Z" fill="#e05a2b" stroke="#223247" stroke-width=".9"/>
+    <path d="M64 206L70 203L76 206" fill="none" stroke="#5bdbe9" stroke-width="1.2"/>
+    <circle cx="43" cy="223" r="2.2" fill="#223247"/>
+    <circle cx="63" cy="214" r="2.2" fill="#223247"/>
+    <circle cx="68" cy="219" r="2.2" fill="#223247"/>
+  </g>
+
+  <g id="yard-detail">
+    <path d="M86 222L100 215L106 218L92 225Z" fill="#f0d060" stroke="#223247" stroke-width=".5" opacity=".7"/>
+    <path d="M96 226L108 220L112 222L100 228Z" fill="#8fd06a" opacity=".6"/>
+    <path d="M38 205L44 202L50 205L44 208Z" fill="#5bdbe9" opacity=".35"/>
+  </g>
+</svg>

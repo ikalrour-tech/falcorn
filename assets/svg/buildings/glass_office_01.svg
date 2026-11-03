@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="goTitle goDesc">
+  <title id="goTitle">Menara Kantor Kaca — gedung perkantoran modern</title>
+  <desc id="goDesc">Menara kantor kaca biru bertingkat dengan teras taman, fasad putih, aksen emas, air mancur, dan pohon palem. Digambar isometrik 2:1.</desc>
+
+  <defs>
+    <linearGradient id="goGlassLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a466b"/>
+      <stop offset=".55" stop-color="#1a7fa7"/>
+      <stop offset="1" stop-color="#4cc3dc"/>
+    </linearGradient>
+    <linearGradient id="goGlassRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9ff4fb"/>
+      <stop offset=".45" stop-color="#46c4da"/>
+      <stop offset="1" stop-color="#0e6d94"/>
+    </linearGradient>
+    <linearGradient id="goStoneLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c9cfd9"/>
+      <stop offset="1" stop-color="#edf1f6"/>
+    </linearGradient>
+    <linearGradient id="goStoneRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dde3ea"/>
+    </linearGradient>
+    <linearGradient id="goSandLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d2c4a7"/>
+      <stop offset="1" stop-color="#f0e6d2"/>
+    </linearGradient>
+    <linearGradient id="goSandRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff9ea"/>
+      <stop offset="1" stop-color="#e0d2b4"/>
+    </linearGradient>
+    <linearGradient id="goGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0ad"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+    <linearGradient id="goWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#aef6ff"/>
+      <stop offset="1" stop-color="#2388b0"/>
+    </linearGradient>
+    <radialGradient id="goShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="goFloorsLeft" width="10" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0L10 5" stroke="#d4faff" stroke-width=".7" opacity=".5"/>
+    </pattern>
+    <pattern id="goFloorsRight" width="10" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 5L10 0" stroke="#f2ffff" stroke-width=".7" opacity=".55"/>
+    </pattern>
+
+    <clipPath id="goTowerLeftClip">
+      <polygon points="44,194 80,212 80,122 48,106"/>
+      <polygon points="56,106 80,118 80,65 58,54"/>
+    </clipPath>
+    <clipPath id="goTowerRightClip">
+      <polygon points="80,212 116,194 112,106 80,122"/>
+      <polygon points="80,118 104,106 102,54 80,65"/>
+    </clipPath>
+
+    <g id="goPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="84" cy="218" rx="62" ry="21" fill="url(#goShadow)"/>
+    <path d="M80 190L146 220L80 239L14 209Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="plaza">
+    <path d="M80 183L133 208L80 234L27 208Z" fill="#e9e4d8" stroke="#bcb3a0" stroke-width="1.2"/>
+    <path d="M80 188L127 208L80 230L33 208Z" fill="none" stroke="#c9bda0" stroke-width="1.2" stroke-dasharray="4 4"/>
+    <path d="M80 197L111 208L80 220L49 208Z" fill="#f7f2e4" stroke="#bcb3a0" stroke-width="1"/>
+    <ellipse cx="44" cy="220" rx="14" ry="6.5" fill="url(#goWater)" stroke="#223247" stroke-width="1.2"/>
+    <ellipse cx="44" cy="218" rx="10" ry="4.2" fill="#c7f8ff" opacity=".7"/>
+    <path d="M44 217C41 211 44 206 48 203C48 210 47 214 44 217Z" fill="#d7fbff" opacity=".9"/>
+    <use href="#goPalm" transform="translate(132 205) scale(.94)"/>
+    <use href="#goPalm" transform="translate(24 211) scale(.72)"/>
+    <path d="M64 221L78 214L86 218L72 225Z" fill="#8fd06a" opacity=".85"/>
+    <path d="M96 225L108 219L114 222L102 228Z" fill="#7fc369" opacity=".8"/>
+  </g>
+
+  <g id="podium" stroke="#223247" stroke-width="1.7" stroke-linejoin="round">
+    <polygon points="30,194 80,219 80,233 30,208" fill="url(#goSandLeft)"/>
+    <polygon points="80,219 130,194 130,208 80,233" fill="url(#goSandRight)"/>
+    <polygon points="80,169 130,194 80,219 30,194" fill="#fffaf0"/>
+    <path d="M30 194L80 219L130 194" fill="none" stroke="url(#goGold)" stroke-width="2.2"/>
+    <path d="M80 210L98 201L98 217L80 226Z" fill="#123f5d"/>
+    <path d="M76 207L102 194L107 199L81 212Z" fill="url(#goGold)" stroke="#8a641d" stroke-width="1"/>
+    <path d="M84 211L94 206L94 218L84 223Z" fill="#58d7e8" opacity=".75"/>
+    <path d="M36 201L47 196L47 204L36 209Z" fill="#7fe7f4" opacity=".78"/>
+    <path d="M105 204L118 198L118 205L105 211Z" fill="#7fe7f4" opacity=".78"/>
+    <path d="M90 190L101 185L101 191L90 196Z" fill="#e9c46a" stroke="#8a641d" stroke-width=".7"/>
+    <path d="M38 190L130 190" opacity="0"/>
+  </g>
+
+  <g id="tower">
+    <g id="lower-block">
+      <polygon points="44,194 80,212 80,122 48,106" fill="url(#goGlassLeft)" stroke="#223247" stroke-width="1.8"/>
+      <polygon points="80,212 116,194 112,106 80,122" fill="url(#goGlassRight)" stroke="#223247" stroke-width="1.8"/>
+      <polygon points="44,194 80,212 80,122 48,106" fill="url(#goFloorsLeft)"/>
+      <polygon points="80,212 116,194 112,106 80,122" fill="url(#goFloorsRight)"/>
+      <g clip-path="url(#goTowerLeftClip)" stroke="#f1feff" stroke-width=".8" opacity=".36">
+        <path d="M50 96V205M58 96V205M66 96V205M74 96V205M82 96V205M90 96V205M98 96V205M106 96V205"/>
+      </g>
+      <g clip-path="url(#goTowerRightClip)" stroke="#f7ffff" stroke-width=".8" opacity=".36">
+        <path d="M86 96V205M94 96V205M102 96V205M110 96V205M118 96V205"/>
+      </g>
+      <polygon points="84,201 94,196 94,117 84,121" fill="#ffffff" opacity=".14"/>
+      <path d="M46 150L80 168L114 150" fill="none" stroke="#fff4c8" stroke-width="2"/>
+      <path d="M47 172L80 189L113 172" fill="none" stroke="#e9fdff" stroke-width="1" opacity=".55"/>
+      <path d="M48 128L80 145L112 128" fill="none" stroke="#e9fdff" stroke-width="1" opacity=".4"/>
+      <path d="M48 106L80 122L112 106" fill="none" stroke="#ffffff" stroke-width="2.4"/>
+    </g>
+
+    <g id="terrace">
+      <polygon points="80,90 112,106 80,122 48,106" fill="#f7f3e9" stroke="#223247" stroke-width="1.4"/>
+      <path d="M48 106L80 122L112 106" fill="none" stroke="#c9a227" stroke-width="1.4" opacity=".85"/>
+      <path d="M52 104L62 99L62 101L52 106Z" fill="#4daa5b" stroke="#223247" stroke-width=".7"/>
+      <path d="M60 101L68 97L68 99L60 103Z" fill="#70c47e" stroke="#223247" stroke-width=".6"/>
+      <path d="M100 101L110 96L110 99L100 104Z" fill="#4daa5b" stroke="#223247" stroke-width=".7"/>
+      <path d="M54 102L56 91" stroke="#223247" stroke-width="1" opacity=".6"/>
+      <path d="M56 90C53 87 53 84 54 82C57 84 58 87 57 90Z" fill="#57b765" stroke="#223247" stroke-width=".5"/>
+      <path d="M103 98L105 88" stroke="#223247" stroke-width="1" opacity=".6"/>
+      <path d="M105 87C102 84 102 81 103 79C106 81 107 84 106 87Z" fill="#57b765" stroke="#223247" stroke-width=".5"/>
+    </g>
+
+    <g id="upper-block">
+      <polygon points="56,106 80,118 80,65 58,54" fill="url(#goGlassLeft)" stroke="#223247" stroke-width="1.8"/>
+      <polygon points="80,118 104,106 102,54 80,65" fill="url(#goGlassRight)" stroke="#223247" stroke-width="1.8"/>
+      <polygon points="56,106 80,118 80,65 58,54" fill="url(#goFloorsLeft)"/>
+      <polygon points="80,118 104,106 102,54 80,65" fill="url(#goFloorsRight)"/>
+      <g clip-path="url(#goTowerLeftClip)" stroke="#f1feff" stroke-width=".75" opacity=".32">
+        <path d="M58 50V112M64 50V112M70 50V112M76 50V112M82 50V112M88 50V112M94 50V112M100 50V112"/>
+      </g>
+      <g clip-path="url(#goTowerRightClip)" stroke="#f7ffff" stroke-width=".75" opacity=".32">
+        <path d="M86 50V112M92 50V112M98 50V112M104 50V112"/>
+      </g>
+      <polygon points="83,112 90,108 90,69 83,72" fill="#ffffff" opacity=".15"/>
+      <path d="M58 84L80 96L102 84" fill="none" stroke="#fff4c8" stroke-width="1.7"/>
+      <path d="M59 100L80 111L101 100" fill="none" stroke="#e9fdff" stroke-width=".9" opacity=".5"/>
+      <path d="M58 54L80 65L102 54" fill="none" stroke="#ffffff" stroke-width="2.2"/>
+    </g>
+
+    <g id="roof">
+      <polygon points="80,43 102,54 80,65 58,54" fill="#f8f4ea" stroke="#223247" stroke-width="1.5"/>
+      <path d="M58 54L80 65L102 54" fill="none" stroke="#c9a227" stroke-width="1.3"/>
+      <path d="M70 48L80 43L90 48L80 53Z" fill="#dce8ef" stroke="#223247" stroke-width=".9"/>
+      <path d="M68 47L90 47L90 50L68 50Z" fill="url(#goGold)" opacity=".9" stroke="#8a641d" stroke-width=".5"/>
+      <path d="M80 43V32" stroke="#8fa9b8" stroke-width="1.4"/>
+      <circle cx="80" cy="30" r="2" fill="#ffd76a" stroke="#b8862f" stroke-width=".7"/>
+      <path d="M64 55L66 46L70 44L68 53Z" fill="#4daa5b" stroke="#223247" stroke-width=".7"/>
+      <path d="M94 55L98 46L102 44L98 53Z" fill="#57b765" stroke="#223247" stroke-width=".7"/>
+      <path d="M76 60C78 56 84 54 88 55C84 58 82 61 80 64Z" fill="#7fe7f4" opacity=".75" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </g>
+
+  <g id="corporate-flag">
+    <path d="M38 186V176" stroke="#223247" stroke-width="1.2"/>
+    <path d="M38 176L48 179L38 182Z" fill="#e9c46a" stroke="#223247" stroke-width=".6"/>
+  </g>
+
+  <g id="glints" fill="#ffffff" opacity=".68">
+    <rect x="61" y="134" width="5" height="2" transform="rotate(27 61 134)"/>
+    <rect x="72" y="156" width="5" height="2" transform="rotate(27 72 156)"/>
+    <rect x="88" y="176" width="4" height="2" transform="rotate(-27 88 176)"/>
+    <rect x="63" y="88" width="4" height="2" transform="rotate(27 63 88)"/>
+    <rect x="94" y="76" width="4" height="2" transform="rotate(-27 94 76)"/>
+  </g>
+</svg>

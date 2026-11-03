@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 140" width="64" height="140" role="img" aria-labelledby="slTitle slDesc">
+  <title id="slTitle">Lampu Jalan Modern</title>
+  <desc id="slDesc">Tiang lampu LED melengkung dengan cahaya hangat, digambar isometrik.</desc>
+  <defs>
+    <linearGradient id="slMetal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f3b48"/>
+      <stop offset=".5" stop-color="#76848f"/>
+      <stop offset="1" stop-color="#3d4a56"/>
+    </linearGradient>
+    <radialGradient id="slGlow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff8cd" stop-opacity=".95"/>
+      <stop offset=".35" stop-color="#ffe07a" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ffe07a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="slHead" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff6c9"/>
+      <stop offset="1" stop-color="#ffd35e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="44" cy="47" r="16" fill="url(#slGlow)"/>
+  <ellipse cx="32" cy="124" rx="7" ry="2.6" fill="#3a4652" stroke="#223247" stroke-width=".7"/>
+  <path d="M32 123V58C32 49 36 44 44 44" fill="none" stroke="#223247" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 123V58C32 49 36 44 44 44" fill="none" stroke="url(#slMetal)" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M32 116V64" stroke="#a5b1ba" stroke-width=".6" opacity=".55"/>
+  <path d="M41 44H49L47 49H43Z" fill="url(#slHead)" stroke="#223247" stroke-width="1"/>
+  <path d="M43 49H47" stroke="#fffbe0" stroke-width="1.2"/>
+  <ellipse cx="45" cy="50" rx="7" ry="2.2" fill="#fff3b0" opacity=".5"/>
+  <rect x="29.4" y="118" width="5.2" height="6" rx="1.2" fill="#46525e" stroke="#223247" stroke-width=".6"/>
+</svg>

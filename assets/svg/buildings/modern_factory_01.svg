@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="mfTitle mfDesc">
+  <title id="mfTitle">Pabrik Modern Nusantara</title>
+  <desc id="mfDesc">Pabrik modern berjendela kaca dengan atap panel surya, cerobong bersih, kantor kecil, halaman truk, dan pohon palem.</desc>
+
+  <defs>
+    <linearGradient id="mfWallLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b9c1cc"/>
+      <stop offset="1" stop-color="#e8edf3"/>
+    </linearGradient>
+    <linearGradient id="mfWallRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f6f8fb"/>
+      <stop offset="1" stop-color="#cdd5df"/>
+    </linearGradient>
+    <linearGradient id="mfGlass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0e5878"/>
+      <stop offset=".55" stop-color="#2b96b3"/>
+      <stop offset="1" stop-color="#82e0ea"/>
+    </linearGradient>
+    <linearGradient id="mfRoof" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d7dee6"/>
+    </linearGradient>
+    <linearGradient id="mfGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2b2"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+    <radialGradient id="mfShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+    <g id="mfPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="84" cy="219" rx="62" ry="21" fill="url(#mfShadow)"/>
+    <path d="M80 190L146 219L80 238L14 209Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="yard">
+    <path d="M80 184L134 208L80 233L26 208Z" fill="#b8bec7" stroke="#8e97a3" stroke-width="1.2"/>
+    <path d="M80 189L128 208L80 229L32 208Z" fill="none" stroke="#f0d060" stroke-width="1.1" stroke-dasharray="5 4" opacity=".75"/>
+    <path d="M80 199L110 208L80 220L50 208Z" fill="#c9cfd7" stroke="#9aa3af" stroke-width=".9"/>
+    <use href="#mfPalm" transform="translate(30 209) scale(.85)"/>
+    <use href="#mfPalm" transform="translate(132 203) scale(.75)"/>
+    <path d="M58 218L68 213L74 216L64 221Z" fill="#7fc369" opacity=".8"/>
+  </g>
+
+  <g id="factory" stroke="#223247" stroke-width="1.8" stroke-linejoin="round">
+    <polygon points="32,196 74,217 74,231 32,210" fill="url(#mfWallLeft)"/>
+    <polygon points="74,217 116,196 116,210 74,231" fill="url(#mfWallRight)"/>
+    <polygon points="74,172 116,194 74,215 32,193" fill="url(#mfRoof)"/>
+
+    <polygon points="36,198 74,216 74,184 36,166" fill="url(#mfGlass)"/>
+    <polygon points="74,216 112,197 112,170 74,189" fill="url(#mfGlass)"/>
+    <g stroke="#e8feff" stroke-width=".75" opacity=".45">
+      <path d="M42 196V210M50 192V206M58 189V202M66 186V199"/>
+      <path d="M80 212V188M88 208V181M96 203V176M104 199V171"/>
+    </g>
+    <path d="M36 166L74 184L112 170" fill="none" stroke="#fff" stroke-width="1.2" opacity=".6"/>
+
+    <path d="M32 196L74 217L116 196" fill="none" stroke="url(#mfGold)" stroke-width="2"/>
+    <path d="M32 193L74 215L116 194" fill="none" stroke="#fff" stroke-width="1.2"/>
+
+    <g id="solar-roof">
+      <path d="M40 190L74 173L108 190L74 208Z" fill="#f6f9fc" opacity=".9"/>
+      <g fill="#2a6f94" stroke="#1d506c" stroke-width=".5" opacity=".9">
+        <path d="M48 188L62 181L70 185L56 192Z"/>
+        <path d="M62 181L76 174L84 178L70 185Z"/>
+        <path d="M76 174L90 181L98 185L84 178Z"/>
+        <path d="M56 194L70 187L78 191L64 198Z"/>
+        <path d="M70 187L84 180L92 184L78 191Z"/>
+      </g>
+      <path d="M40 190L74 173L108 190" fill="none" stroke="#e9c46a" stroke-width="1.2"/>
+    </g>
+
+    <g id="smokestacks">
+      <path d="M52 184V139" stroke="#8d98a4" stroke-width="7"/>
+      <path d="M52 184V139" stroke="#eef2f6" stroke-width="4"/>
+      <path d="M49 139L55 139" stroke="#e63946" stroke-width="4"/>
+      <path d="M88 176V134" stroke="#8d98a4" stroke-width="7"/>
+      <path d="M88 176V134" stroke="#eef2f6" stroke-width="4"/>
+      <path d="M85 134L91 134" stroke="#e9c46a" stroke-width="4"/>
+      <g fill="#f8fbfd" opacity=".85">
+        <circle cx="50" cy="131" r="5"/>
+        <circle cx="44" cy="125" r="6"/>
+        <circle cx="54" cy="120" r="5"/>
+        <circle cx="87" cy="126" r="5"/>
+        <circle cx="93" cy="118" r="6"/>
+      </g>
+    </g>
+
+    <g id="loading-dock">
+      <path d="M80 218L98 209L98 218L80 227Z" fill="#e08a3c" stroke="#223247" stroke-width="1"/>
+      <path d="M84 218L96 212" stroke="#fff" stroke-width="1.4"/>
+      <path d="M84 222L96 216" stroke="#223247" stroke-width="1.1"/>
+      <path d="M98 208L108 203L108 211L98 216Z" fill="#5bdbe9" opacity=".75" stroke="#223247" stroke-width=".7"/>
+    </g>
+  </g>
+
+  <g id="office-annex" stroke="#223247" stroke-width="1.6">
+    <polygon points="116,194 132,186 132,158 116,166" fill="url(#mfGlass)"/>
+    <polygon points="132,186 146,179 146,153 132,158" fill="#a6f6fb" opacity=".85"/>
+    <polygon points="132,150 146,157 132,164 116,158" fill="#f8f4ea"/>
+    <path d="M116 166L132 174L146 166" fill="none" stroke="#fff" stroke-width="1" opacity=".6"/>
+    <path d="M120 188V168M126 185V165M136 180V162M142 177V160" stroke="#e8feff" stroke-width=".6" opacity=".4"/>
+  </g>
+
+  <g id="truck">
+    <path d="M54 221L70 213L78 217L62 225Z" fill="#e9eef3" stroke="#223247" stroke-width=".9"/>
+    <path d="M62 225L78 217L78 222L62 230Z" fill="#cdd5df" stroke="#223247" stroke-width=".9"/>
+    <path d="M70 213L74 211L82 215L78 217Z" fill="#e05a2b" stroke="#223247" stroke-width=".9"/>
+    <circle cx="60" cy="227" r="2" fill="#223247"/>
+    <circle cx="74" cy="222" r="2" fill="#223247"/>
+  </g>
+</svg>

@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="hsTitle hsDesc">
+  <title id="hsTitle">Rumah Sakit Modern — menara putih dengan pita kaca biru</title>
+  <desc id="hsDesc">Rumah sakit modern dengan menara putih berpita kaca biru, tanda palang merah, helipad, kanopi ambulans, taman, dan pohon palem. Digambar isometrik 2:1.</desc>
+
+  <defs>
+    <linearGradient id="hsStoneLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c7d2da"/>
+      <stop offset=".6" stop-color="#eef3f6"/>
+      <stop offset="1" stop-color="#fbfdfe"/>
+    </linearGradient>
+    <linearGradient id="hsStoneRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".55" stop-color="#e8eef2"/>
+      <stop offset="1" stop-color="#c3ced6"/>
+    </linearGradient>
+    <linearGradient id="hsStoneTop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e9eff3"/>
+    </linearGradient>
+    <linearGradient id="hsGlassLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a5478"/>
+      <stop offset=".55" stop-color="#1a90b5"/>
+      <stop offset="1" stop-color="#6ddcec"/>
+    </linearGradient>
+    <linearGradient id="hsGlassRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9bf4fb"/>
+      <stop offset=".5" stop-color="#3abdd7"/>
+      <stop offset="1" stop-color="#0f6a8c"/>
+    </linearGradient>
+    <linearGradient id="hsTeal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#59e0d4"/>
+      <stop offset="1" stop-color="#168f8b"/>
+    </linearGradient>
+    <linearGradient id="hsRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff7b73"/>
+      <stop offset="1" stop-color="#c92f3c"/>
+    </linearGradient>
+    <linearGradient id="hsWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bdf8ff"/>
+      <stop offset=".55" stop-color="#4cc6df"/>
+      <stop offset="1" stop-color="#1b7fa6"/>
+    </linearGradient>
+    <linearGradient id="hsGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3b8"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b07d26"/>
+    </linearGradient>
+    <radialGradient id="hsShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hsBeacon" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff8c4"/>
+      <stop offset=".4" stop-color="#ffd76a" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ffd76a" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="hsLeftClip">
+      <polygon points="44,188 80,206 80,110 44,92"/>
+    </clipPath>
+    <clipPath id="hsRightClip">
+      <polygon points="80,206 116,188 116,92 80,110"/>
+    </clipPath>
+    <clipPath id="hsPodiumClip">
+      <polygon points="80,194 124,216 80,238 36,216"/>
+    </clipPath>
+
+    <g id="hsPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="82" cy="218" rx="65" ry="22" fill="url(#hsShadow)"/>
+    <path d="M80 184L145 214L80 238L15 208Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="plaza">
+    <path d="M80 180L140 208L80 236L20 208Z" fill="#e7ecef" stroke="#b9c5cc" stroke-width="1.2"/>
+    <path d="M80 186L132 208L80 230L28 208Z" fill="#f4f8fa" stroke="#ccd7dd" stroke-width="1"/>
+    <path d="M80 192L120 210L80 228L40 210Z" fill="#fbfdfe" stroke="#c6d2d9" stroke-width="1"/>
+    <path d="M80 198L106 210L80 222L54 210Z" fill="#dfe7eb" stroke="#b9c5cc" stroke-width=".8"/>
+    <g stroke="#f7c948" stroke-width="3" opacity=".8">
+      <path d="M44 216L54 221M44 220L54 225M44 224L54 229"/>
+    </g>
+    <ellipse cx="112" cy="224" rx="14" ry="6.5" fill="url(#hsWater)" stroke="#223247" stroke-width="1.1"/>
+    <ellipse cx="112" cy="222" rx="10" ry="4.2" fill="#c9f9ff" opacity=".7"/>
+    <path d="M112 221C109 215 112 209 116 206C116 213 115 217 112 221Z" fill="#d7fbff" opacity=".85"/>
+    <use href="#hsPalm" transform="translate(26 210) scale(.94)"/>
+    <use href="#hsPalm" transform="translate(136 203) scale(.8)"/>
+    <use href="#hsPalm" transform="translate(23 220) scale(.6)"/>
+    <use href="#hsPalm" transform="translate(138 218) scale(.56)"/>
+    <path d="M34 204C38 200 46 200 50 203C46 207 38 207 34 204Z" fill="#4daa5b" stroke="#223247" stroke-width=".7"/>
+  </g>
+
+  <g id="tower" stroke="#223247" stroke-width="1.7" stroke-linejoin="round">
+    <polygon points="44,188 80,206 80,110 44,92" fill="url(#hsStoneLeft)"/>
+    <polygon points="80,206 116,188 116,92 80,110" fill="url(#hsStoneRight)"/>
+    <polygon points="80,74 116,92 80,110 44,92" fill="url(#hsStoneTop)"/>
+
+    <g clip-path="url(#hsLeftClip)">
+      <g stroke="url(#hsGlassLeft)" stroke-width="5" opacity=".94">
+        <path d="M42 100L82 120M42 111L82 131M42 122L82 142M42 133L82 153M42 144L82 164M42 155L82 175M42 166L82 186M42 177L82 197"/>
+      </g>
+      <g stroke="#ffffff" stroke-width="1.4" opacity=".95">
+        <path d="M42 105L82 125M42 116L82 136M42 127L82 147M42 138L82 158M42 149L82 169M42 160L82 180M42 171L82 191M42 182L82 202"/>
+      </g>
+      <g stroke="#d8f9ff" stroke-width=".75" opacity=".6">
+        <path d="M52 96V202M60 100V206M68 104V210M76 108V214"/>
+      </g>
+      <path d="M44 92L58 99L58 195L44 188Z" fill="#ffffff" opacity=".3"/>
+      <path d="M50 95C44 130 44 160 50 190" fill="none" stroke="#ffffff" stroke-width="1.6" opacity=".55"/>
+    </g>
+
+    <g clip-path="url(#hsRightClip)">
+      <g stroke="url(#hsGlassRight)" stroke-width="5" opacity=".94">
+        <path d="M78 120L118 100M78 131L118 111M78 142L118 122M78 153L118 133M78 164L118 144M78 175L118 155M78 186L118 166M78 197L118 177"/>
+      </g>
+      <g stroke="#ffffff" stroke-width="1.4" opacity=".95">
+        <path d="M78 125L118 105M78 136L118 116M78 147L118 127M78 158L118 138M78 169L118 149M78 180L118 160M78 191L118 171M78 202L118 182"/>
+      </g>
+      <g stroke="#e7feff" stroke-width=".75" opacity=".6">
+        <path d="M86 112V218M94 108V214M102 104V210M110 100V206"/>
+      </g>
+      <path d="M82 110L96 103L96 199L82 206Z" fill="#ffffff" opacity=".18"/>
+      <path d="M112 96L118 93L118 185L112 188Z" fill="#e8feff" opacity=".25"/>
+    </g>
+
+    <path d="M44 92L80 110L116 92" fill="none" stroke="#ffffff" stroke-width="2.4"/>
+    <path d="M44 97L80 115L116 97" fill="none" stroke="#8ea6b4" stroke-width=".8" opacity=".55"/>
+    <path d="M80 206L116 188" fill="none" stroke="#aebbc4" stroke-width="1"/>
+
+    <g id="hospital-cross">
+      <polygon points="94,124 112,115 112,136 94,145" fill="#ffffff" stroke="#223247" stroke-width="1"/>
+      <polygon points="100,126 105,123.5 105,138 100,140.5" fill="url(#hsRed)" stroke="#9d202c" stroke-width=".6"/>
+      <polygon points="96.5,129 108.5,123 108.5,128 96.5,134" fill="url(#hsRed)" stroke="#9d202c" stroke-width=".6"/>
+    </g>
+
+    <g id="helipad">
+      <ellipse cx="80" cy="76" rx="24" ry="11" fill="#5f6c78" stroke="#223247" stroke-width="1.2"/>
+      <ellipse cx="80" cy="76" rx="19" ry="8.4" fill="#3f4b56"/>
+      <ellipse cx="80" cy="76" rx="19" ry="8.4" fill="none" stroke="#f5f8fa" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <path d="M75 72V81M85 71V80M75 76.5H85" stroke="#f5f8fa" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M58 70L62 68L62 74L58 76Z" fill="#f3c63c" stroke="#223247" stroke-width=".6"/>
+      <path d="M98 82L102 80L102 86L98 88Z" fill="#f3c63c" stroke="#223247" stroke-width=".6"/>
+    </g>
+    <g id="roof-detail">
+      <polygon points="54,88 66,82 66,88 54,94" fill="#dbe4e9" stroke="#223247" stroke-width=".9"/>
+      <polygon points="88,92 98,87 98,92 88,97" fill="#dbe4e9" stroke="#223247" stroke-width=".9"/>
+      <path d="M80 74V58" stroke="#8a9aa5" stroke-width="1.6"/>
+      <circle cx="80" cy="54" r="8" fill="url(#hsBeacon)" opacity=".8"/>
+      <circle cx="80" cy="54" r="2" fill="#fff6bd" stroke="#b07d26" stroke-width=".6"/>
+    </g>
+  </g>
+
+  <g id="podium" stroke="#223247" stroke-width="1.7" stroke-linejoin="round">
+    <polygon points="80,194 124,216 124,190 80,168" fill="url(#hsStoneRight)"/>
+    <polygon points="80,194 36,216 36,190 80,168" fill="url(#hsStoneLeft)"/>
+    <polygon points="80,168 124,190 80,212 36,190" fill="url(#hsStoneTop)"/>
+    <polygon points="80,212 124,190 124,186 80,208" fill="#d8e1e6" opacity=".9"/>
+    <polygon points="80,208 36,186 36,182 80,204" fill="#e8eef2" opacity=".9"/>
+
+    <polygon points="80,208 118,189 118,166 80,185" fill="url(#hsGlassRight)"/>
+    <polygon points="80,208 42,189 42,166 80,185" fill="url(#hsGlassLeft)"/>
+    <g stroke="#eafeff" stroke-width=".9" opacity=".6">
+      <path d="M50 200V177M58 204V181M66 208V185M74 212V189M88 204V181M96 200V177M104 196V173M112 192V169"/>
+    </g>
+    <path d="M42 189L80 208L118 189" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <path d="M80 185L118 166M80 185L42 166" fill="none" stroke="#ffffff" stroke-width="1.4" opacity=".8"/>
+
+    <polygon points="70,203 80,208 90,203 90,187 80,192 70,187" fill="#143d57" stroke="#223247" stroke-width="1.1"/>
+    <polygon points="73,201 80,205 87,201 87,189 80,193 73,189" fill="url(#hsGlassRight)" opacity=".7"/>
+    <path d="M80 193V205" stroke="#eafeff" stroke-width=".8" opacity=".7"/>
+
+    <g id="podium-cross">
+      <polygon points="64,183 74,178 74,190 64,195" fill="#ffffff" stroke="#223247" stroke-width=".9"/>
+      <polygon points="67.5,184 70.5,182.5 70.5,193 67.5,194.5" fill="url(#hsRed)" stroke="#9d202c" stroke-width=".5"/>
+      <polygon points="65.5,186.5 72.5,183 72.5,186 65.5,189.5" fill="url(#hsRed)" stroke="#9d202c" stroke-width=".5"/>
+    </g>
+
+    <g id="canopy">
+      <polygon points="80,206 132,181 132,174 80,199" fill="url(#hsTeal)" opacity=".95"/>
+      <polygon points="80,199 132,174 132,171 80,196" fill="#eaffff" opacity=".85"/>
+      <polygon points="80,206 28,181 28,174 80,199" fill="#7de6dd" opacity=".9"/>
+      <polygon points="80,199 28,174 28,171 80,196" fill="#f4fffe" opacity=".85"/>
+      <path d="M40 195V216M120 195V216M54 201V221M106 201V221" stroke="#5c6c78" stroke-width="2"/>
+      <path d="M40 195V216M120 195V216M54 201V221M106 201V221" stroke="#cfdde4" stroke-width=".8"/>
+    </g>
+  </g>
+
+  <g id="ambulance">
+    <polygon points="31,212 48,204 55,207 38,215" fill="#f8fbfc" stroke="#223247" stroke-width=".9"/>
+    <polygon points="38,215 55,207 55,215 38,223" fill="#eef3f5" stroke="#223247" stroke-width=".9"/>
+    <polygon points="42,214 47,211.5 47,215 42,217.5" fill="url(#hsGlassRight)" stroke="#223247" stroke-width=".5"/>
+    <path d="M48.5 212.5H52.5M50.5 210.5V214.5" stroke="#e63946" stroke-width="1.6"/>
+    <circle cx="41" cy="219" r="2.1" fill="#333d45" stroke="#223247" stroke-width=".5"/>
+    <circle cx="51" cy="215" r="2.1" fill="#333d45" stroke="#223247" stroke-width=".5"/>
+  </g>
+
+  <g id="facade-glints" fill="#eafeff" opacity=".7">
+    <rect x="58" y="137" width="5" height="2" transform="rotate(27 58 137)"/>
+    <rect x="68" y="147" width="5" height="2" transform="rotate(27 68 147)"/>
+    <rect x="86" y="148" width="5" height="2" transform="rotate(-27 86 148)"/>
+    <rect x="98" y="138" width="4" height="2" transform="rotate(-27 98 138)"/>
+  </g>
+</svg>

@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-labelledby="pkTitle pkDesc">
+  <title id="pkTitle">Taman Kota Nusantara</title>
+  <desc id="pkDesc">Taman isometrik dengan jalur batu, air mancur, gazebo, kolam kecil, bunga, bangku, lampu taman, dan pohon palem.</desc>
+
+  <defs>
+    <linearGradient id="pkGrass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a6df7c"/>
+      <stop offset=".55" stop-color="#8fd06a"/>
+      <stop offset="1" stop-color="#74bb52"/>
+    </linearGradient>
+    <linearGradient id="pkPath" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3e8cd"/>
+      <stop offset="1" stop-color="#d9c7a2"/>
+    </linearGradient>
+    <linearGradient id="pkWasser" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b9f8ff"/>
+      <stop offset=".55" stop-color="#54c7e0"/>
+      <stop offset="1" stop-color="#2487ac"/>
+    </linearGradient>
+    <linearGradient id="pkRoof" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6ed3e2"/>
+      <stop offset=".6" stop-color="#2a9d9b"/>
+      <stop offset="1" stop-color="#1d6f75"/>
+    </linearGradient>
+    <linearGradient id="pkGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff2b2"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+    <clipPath id="pkClip"><path d="M80 89L142 120L80 151L18 120Z"/></clipPath>
+    <g id="pkPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+    <g id="pkFlower">
+      <path d="M0 0C-3 -4 -3 -8 0 -11C3 -8 3 -4 0 0Z" fill="#4daa5b"/>
+      <circle cx="-3" cy="-10" r="2.2" fill="#e63946" stroke="#223247" stroke-width=".35"/>
+      <circle cx="3" cy="-9" r="2" fill="#ffd166" stroke="#223247" stroke-width=".35"/>
+      <circle cx="0" cy="-13" r="2" fill="#f4a261" stroke="#223247" stroke-width=".35"/>
+    </g>
+    <g id="pkBench">
+      <path d="M-8 0L8 -5L8 -2L-8 3Z" fill="#c9a227" stroke="#223247" stroke-width=".7"/>
+      <path d="M-8 3V6M8 -2V1" stroke="#223247" stroke-width="1"/>
+      <path d="M-6 2L6 -2" stroke="#8a5a2b" stroke-width=".8"/>
+    </g>
+    <g id="pkLamp">
+      <path d="M0 0V-18" stroke="#223247" stroke-width="1.4"/>
+      <path d="M-3 -18L3 -18L2 -22L-2 -22Z" fill="#ffe9a1" stroke="#223247" stroke-width=".7"/>
+      <circle cx="0" cy="-20" r="4" fill="rgba(255,215,110,.35)"/>
+    </g>
+  </defs>
+
+  <g id="park-ground">
+    <path d="M80 89L142 120L80 151L18 120Z" fill="url(#pkGrass)" stroke="#5ea247" stroke-width="2"/>
+    <path d="M80 94L134 120L80 146L26 120Z" fill="none" stroke="#b6e895" stroke-width="1.2" opacity=".8"/>
+    <path d="M80 89L142 120L80 151L18 120Z" fill="none" stroke="#4a8a3d" stroke-width=".7" opacity=".6"/>
+  </g>
+
+  <g clip-path="url(#pkClip)">
+    <path d="M20 126C40 112 54 134 76 124C96 115 114 130 140 116" fill="none" stroke="#c9b58f" stroke-width="12" stroke-linecap="round" opacity=".55"/>
+    <path d="M20 126C40 112 54 134 76 124C96 115 114 130 140 116" fill="none" stroke="url(#pkPath)" stroke-width="9" stroke-linecap="round"/>
+    <path d="M20 126C40 112 54 134 76 124C96 115 114 130 140 116" fill="none" stroke="#fff8e8" stroke-width=".8" stroke-dasharray="2 4" opacity=".8"/>
+
+    <path d="M44 113C50 108 58 106 64 109C70 112 66 118 58 119C50 120 42 118 44 113Z" fill="#7fc369" opacity=".8"/>
+    <path d="M96 129C102 124 112 124 117 128C121 132 116 136 108 136C101 136 94 134 96 129Z" fill="#7fc369" opacity=".8"/>
+
+    <ellipse cx="108" cy="132" rx="14" ry="7" fill="url(#pkWasser)" stroke="#223247" stroke-width="1.1"/>
+    <ellipse cx="108" cy="130" rx="10" ry="4.5" fill="#cdf9ff" opacity=".6"/>
+    <circle cx="104" cy="129" r="2.4" fill="#4daa5b" stroke="#223247" stroke-width=".4"/>
+    <circle cx="112" cy="132" r="1.8" fill="#57b765" stroke="#223247" stroke-width=".35"/>
+    <circle cx="108" cy="130" r=".9" fill="#f7c6da"/>
+
+    <path d="M64 106L72 102L80 106L72 110Z" fill="#e8dcc4" opacity=".75"/>
+    <path d="M88 114L96 110L104 114L96 118Z" fill="#e8dcc4" opacity=".7"/>
+    <path d="M58 130L66 126L74 130L66 134Z" fill="#e8dcc4" opacity=".65"/>
+  </g>
+
+  <g id="park-fountain">
+    <ellipse cx="80" cy="120" rx="18" ry="9" fill="#d8cbb3" stroke="#223247" stroke-width="1.3"/>
+    <ellipse cx="80" cy="119" rx="14" ry="7" fill="url(#pkWasser)" stroke="#223247" stroke-width="1"/>
+    <ellipse cx="80" cy="118" rx="9" ry="4.3" fill="#d3faff" opacity=".65"/>
+    <path d="M80 118C74 108 76 100 80 94C84 100 86 108 80 118Z" fill="#bff6ff" opacity=".8"/>
+    <path d="M74 116C68 110 66 104 66 100C72 104 75 109 76 114Z" fill="#d7fbff" opacity=".55"/>
+    <path d="M86 116C92 110 94 104 94 100C88 104 85 109 84 114Z" fill="#d7fbff" opacity=".55"/>
+    <circle cx="80" cy="94" r="2.2" fill="#fff" opacity=".8"/>
+    <path d="M74 119C78 121 82 121 86 119" fill="none" stroke="#fff" stroke-width=".8" opacity=".6"/>
+  </g>
+
+  <g id="park-gazebo">
+    <ellipse cx="51" cy="102" rx="18" ry="8" fill="#5a9147" opacity=".35"/>
+    <path d="M38 98L51 92L64 98L51 104Z" fill="#f8f1e1" stroke="#223247" stroke-width="1"/>
+    <path d="M38 98V107M64 98V107M51 104V112M42 101V108M60 101V108" stroke="#223247" stroke-width="1.1"/>
+    <path d="M38 98L51 92L64 98L51 104Z" fill="#f8f1e1" opacity=".8"/>
+    <path d="M32 97L51 88L70 97L51 106Z" fill="url(#pkRoof)" stroke="#223247" stroke-width="1.1"/>
+    <path d="M40 96L51 91L62 96L51 101Z" fill="#9febf1" opacity=".5"/>
+    <path d="M51 88V81" stroke="#b8862f" stroke-width="1.2"/>
+    <circle cx="51" cy="80" r="1.7" fill="#ffe9a1" stroke="#b8862f" stroke-width=".6"/>
+    <path d="M44 107L51 110L58 107" fill="none" stroke="#c9a227" stroke-width=".8"/>
+  </g>
+
+  <g id="park-palms">
+    <use href="#pkPalm" transform="translate(30 122) scale(.92)"/>
+    <use href="#pkPalm" transform="translate(126 113) scale(.9)"/>
+    <use href="#pkPalm" transform="translate(66 138) scale(.62)"/>
+    <use href="#pkPalm" transform="translate(92 104) scale(.6)"/>
+  </g>
+
+  <g id="park-flowers">
+    <use href="#pkFlower" transform="translate(47 125)"/>
+    <use href="#pkFlower" transform="translate(54 128) scale(.8)"/>
+    <use href="#pkFlower" transform="translate(112 120) scale(.9)"/>
+    <use href="#pkFlower" transform="translate(120 123) scale(.75)"/>
+    <use href="#pkFlower" transform="translate(72 112) scale(.7)"/>
+    <use href="#pkFlower" transform="translate(86 127) scale(.65)"/>
+  </g>
+
+  <g id="park-furniture">
+    <use href="#pkBench" transform="translate(66 129)"/>
+    <use href="#pkBench" transform="translate(96 108) scale(.85)"/>
+    <use href="#pkLamp" transform="translate(44 116)"/>
+    <use href="#pkLamp" transform="translate(116 128)"/>
+    <path d="M32 118C36 114 40 113 42 116C40 119 35 120 32 118Z" fill="#fff" opacity=".35"/>
+    <path d="M120 132C124 128 128 127 130 130C128 133 123 134 120 132Z" fill="#fff" opacity=".3"/>
+  </g>
+</svg>

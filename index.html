@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>President of Economy — Bangun Negara, Pahami Ekonomi</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏛️</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ===== MAIN MENU ===== -->
+  <div id="mainMenu" class="screen">
+    <div class="menu-sky"></div>
+    <div class="menu-city-far"></div>
+    <div class="menu-content">
+      <div class="menu-logo">
+        <div class="menu-flag">🏛️</div>
+        <h1>PRESIDENT<br><span>OF ECONOMY</span></h1>
+        <p class="tagline">Bangun Negara, Pahami Ekonomi</p>
+      </div>
+      <div class="menu-buttons">
+        <button id="btnNewStory" class="menu-btn primary">▶ Mulai Game</button>
+        <button id="btnContinue" class="menu-btn">⏩ Lanjutkan</button>
+        <button id="btnModes" class="menu-btn">🗺️ Pilih Mode</button>
+        <button id="btnEncMenu" class="menu-btn">📖 Ensiklopedia</button>
+        <button id="btnSettingsMenu" class="menu-btn">⚙️ Pengaturan</button>
+        <button id="btnCredits" class="menu-btn">ℹ️ Kredit</button>
+      </div>
+      <p class="menu-foot">Belajar Ekonomi Lewat Bermain! · Nusantara Raya</p>
+    </div>
+  </div>
+
+  <!-- ===== MODE SELECT ===== -->
+  <div id="modeSelect" class="screen hidden">
+    <div class="panel-center">
+      <h2>Pilih Mode Permainan</h2>
+      <div class="mode-cards">
+        <div class="mode-card" id="cardStory">
+          <div class="mode-ico">📚</div>
+          <h3>Story Mode</h3>
+          <p>7 bab perjalanan membangun Nusantara Raya bersama para penasihatmu.</p>
+        </div>
+        <div class="mode-card" id="cardFree">
+          <div class="mode-ico">🏗️</div>
+          <h3>Free Build</h3>
+          <p>Bangun kota bebas tanpa tekanan misi. Kas negara besar, uji strategi apa pun.</p>
+        </div>
+        <div class="mode-card" id="cardChallenge">
+          <div class="mode-ico">🏆</div>
+          <h3>Challenge Mode</h3>
+          <p>Skenario khusus: krisis pangan, pengangguran, dan anggaran terbatas.</p>
+        </div>
+      </div>
+      <div id="challengeList" class="hidden"></div>
+      <button class="menu-btn back-btn" data-back="mainMenu">← Kembali</button>
+    </div>
+  </div>
+
+  <!-- ===== GAME SCREEN ===== -->
+  <div id="gameScreen" class="screen hidden">
+    <canvas id="world"></canvas>
+
+    <!-- HUD atas -->
+    <div id="hud">
+      <div class="hud-country">
+        <div class="hud-flag">🏛️</div>
+        <div>
+          <div class="hud-name">Nusantara Raya</div>
+          <div class="hud-date" id="hudDate">Bulan 1, Tahun 1</div>
+        </div>
+      </div>
+      <div class="hud-stats">
+        <div class="stat" title="Kas Negara"><span class="ico">💰</span><b id="hudTreasury">0</b></div>
+        <div class="stat up" title="Pendapatan"><span class="ico">📈</span><b id="hudIncome">0</b></div>
+        <div class="stat down" title="Pengeluaran"><span class="ico">📉</span><b id="hudExpense">0</b></div>
+        <div class="stat" title="Inflasi"><span class="ico">🎯</span><b id="hudInflasi">0%</b></div>
+        <div class="stat" title="Pengangguran"><span class="ico">👥</span><b id="hudUnemp">0%</b></div>
+        <div class="stat" title="Kesejahteraan"><span class="ico">❤️</span><b id="hudWelfare">0%</b></div>
+      </div>
+      <div class="hud-actions">
+        <button id="btnPause" class="hud-btn" title="Jeda">⏸</button>
+        <button id="btnSpeed" class="hud-btn" title="Kecepatan">▶</button>
+        <button id="btnEndTurn" class="hud-btn end-turn">Akhiri Periode ⏭</button>
+        <button id="btnMenu" class="hud-btn" title="Menu">☰</button>
+      </div>
+    </div>
+
+    <!-- banner misi aktif -->
+    <div id="missionBanner">
+      <div class="mb-title">🎯 <span id="mbChapter"></span></div>
+      <div id="mbObjectives"></div>
+    </div>
+
+    <!-- notifikasi -->
+    <div id="toasts"></div>
+
+    <!-- toolbar bawah -->
+    <div id="toolbar">
+      <button class="tool-btn" data-panel="build"><span>🔨</span>Bangun</button>
+      <button class="tool-btn" data-panel="economy"><span>💰</span>Ekonomi</button>
+      <button class="tool-btn" data-panel="policy"><span>📜</span>Kebijakan</button>
+      <button class="tool-btn" data-panel="missions"><span>🎯</span>Misi</button>
+      <button class="tool-btn" data-panel="encyclopedia"><span>📖</span>Ensiklopedia</button>
+      <button class="tool-btn" data-panel="pauseMenu"><span>⏸</span>Jeda</button>
+    </div>
+
+    <!-- zoom controls (HP) -->
+    <div id="zoomCtrls">
+      <button id="btnZoomIn">+</button>
+      <button id="btnZoomOut">–</button>
+    </div>
+
+    <!-- panel bangunan terpilih -->
+    <div id="buildInfo" class="hidden"></div>
+
+    <!-- progress membangun -->
+    <div id="buildHint" class="hidden"><span>Ketuk lahan kosong untuk membangun · ketuk dua kali / Esc untuk batal</span><button id="btnCancelBuild" onclick="GAME.exitBuildMode()">✕ Batal</button></div>
+  </div>
+
+  <!-- ===== MODAL UNIVERSAL ===== -->
+  <div id="modalOverlay" class="hidden">
+    <div id="modalBox">
+      <div id="modalHead"><h2 id="modalTitle"></h2><button id="modalClose">✕</button></div>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- ===== DIALOG KARAKTER ===== -->
+  <div id="dialogBox" class="hidden">
+    <div class="dlg-portrait" id="dlgPortrait"></div>
+    <div class="dlg-main">
+      <div class="dlg-name" id="dlgName"></div>
+      <div class="dlg-text" id="dlgText"></div>
+      <div class="dlg-choices" id="dlgChoices"></div>
+      <button id="dlgNext">Lanjut ▸</button>
+    </div>
+  </div>
+
+</div>
+<script src="js/data.js"></script>
+<script src="js/sprites.js"></script>
+<script src="js/svgassets.js"></script>
+<script src="js/state.js"></script>
+<script src="js/citylife.js"></script>
+<script src="js/economy.js"></script>
+<script src="js/render.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/story.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

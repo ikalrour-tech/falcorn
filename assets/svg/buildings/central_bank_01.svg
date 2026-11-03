@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="cbTitle cbDesc">
+  <title id="cbTitle">Bank Sentral Nusantara — gedung pemerintahan megah</title>
+  <desc id="cbDesc">Bank sentral bergaya modern-klasik dengan kubah emas, tiang putih, kaca biru, tangga upacara, air mancur, dan pohon palem. Digambar isometrik 2:1.</desc>
+
+  <defs>
+    <linearGradient id="cbStoneLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cdc5b5"/>
+      <stop offset="1" stop-color="#f2ebde"/>
+    </linearGradient>
+    <linearGradient id="cbStoneRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#e1d8c8"/>
+    </linearGradient>
+    <linearGradient id="cbGlassLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0b4b6c"/>
+      <stop offset=".6" stop-color="#1e86a7"/>
+      <stop offset="1" stop-color="#5bcbdd"/>
+    </linearGradient>
+    <linearGradient id="cbGlassRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#9cf3fa"/>
+      <stop offset=".5" stop-color="#3dbdd4"/>
+      <stop offset="1" stop-color="#0d6b8d"/>
+    </linearGradient>
+    <linearGradient id="cbGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3b8"/>
+      <stop offset=".38" stop-color="#eccb72"/>
+      <stop offset=".72" stop-color="#d4a53d"/>
+      <stop offset="1" stop-color="#a9751f"/>
+    </linearGradient>
+    <linearGradient id="cbGoldDome" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a9751f"/>
+      <stop offset=".35" stop-color="#e8c15d"/>
+      <stop offset=".65" stop-color="#ffeaa3"/>
+      <stop offset="1" stop-color="#c08e2d"/>
+    </linearGradient>
+    <linearGradient id="cbWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b6f8ff"/>
+      <stop offset="1" stop-color="#2288ae"/>
+    </linearGradient>
+    <radialGradient id="cbShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+    <g id="cbPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="84" cy="219" rx="62" ry="21" fill="url(#cbShadow)"/>
+    <path d="M80 191L146 220L80 239L14 210Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="plaza">
+    <path d="M80 182L134 208L80 234L26 208Z" fill="#efe7d3" stroke="#c9bda0" stroke-width="1.2"/>
+    <path d="M80 188L127 208L80 229L33 208Z" fill="none" stroke="#d8c79c" stroke-width="1.3" stroke-dasharray="4 4"/>
+    <path d="M80 196L112 208L80 221L48 208Z" fill="#faf4e5" stroke="#c9bda0" stroke-width="1"/>
+    <ellipse cx="109" cy="223" rx="14" ry="6.5" fill="url(#cbWater)" stroke="#223247" stroke-width="1.2"/>
+    <ellipse cx="109" cy="221" rx="10" ry="4.2" fill="#cff9ff" opacity=".7"/>
+    <path d="M109 220C106 214 109 208 113 205C113 212 112 216 109 220Z" fill="#e0fdff" opacity=".9"/>
+    <use href="#cbPalm" transform="translate(27 211) scale(.94)"/>
+    <use href="#cbPalm" transform="translate(133 204) scale(.83)"/>
+    <use href="#cbPalm" transform="translate(21 219) scale(.58)"/>
+    <path d="M58 220L70 214L77 217L65 223Z" fill="#8fd06a" opacity=".8"/>
+  </g>
+
+  <g id="bank-base" stroke="#223247" stroke-width="1.8" stroke-linejoin="round">
+    <polygon points="26,192 80,218 80,232 26,206" fill="url(#cbStoneLeft)"/>
+    <polygon points="80,218 134,192 134,206 80,232" fill="url(#cbStoneRight)"/>
+    <polygon points="80,166 134,192 80,218 26,192" fill="#fffbf2"/>
+    <path d="M26 192L80 218L134 192" fill="none" stroke="url(#cbGold)" stroke-width="2.6"/>
+    <path d="M31 206L80 230L129 206" fill="none" stroke="#c9a227" stroke-width="1.1" opacity=".8"/>
+
+    <path d="M34 189L58 177L74 185L50 197Z" fill="none" stroke="#e8ddc7" stroke-width="1"/>
+    <path d="M44 194L62 185L62 204L44 213Z" fill="#7fe7f4" opacity=".7" stroke="#223247" stroke-width=".8"/>
+    <path d="M98 185L118 175L118 193L98 203Z" fill="#7fe7f4" opacity=".7" stroke="#223247" stroke-width=".8"/>
+
+    <path d="M78 211L98 201L98 218L78 228Z" fill="#123f5b"/>
+    <path d="M78 211L98 201L98 218L78 228Z" fill="none" stroke="#f0d27a" stroke-width="1.6"/>
+    <path d="M74 208L102 194L108 198L80 212Z" fill="url(#cbGold)" stroke="#8a641d" stroke-width="1"/>
+    <path d="M86 210L96 205L96 216L86 221Z" fill="#5ddfee" opacity=".7"/>
+
+    <path d="M76 224L114 205L114 210L76 229Z" fill="#fffaf0" stroke="#b9a57d" stroke-width="1"/>
+    <path d="M78 219L112 202L112 206L78 223Z" fill="#f8f1e1" stroke="#b9a57d" stroke-width=".9"/>
+    <path d="M83 212L108 199L108 202L83 215Z" fill="#f2e9d7" stroke="#b9a57d" stroke-width=".8"/>
+  </g>
+
+  <g id="bank-main" stroke="#223247" stroke-width="1.8" stroke-linejoin="round">
+    <polygon points="44,188 80,206 80,166 48,148" fill="url(#cbStoneLeft)"/>
+    <polygon points="80,206 116,188 112,148 80,166" fill="url(#cbStoneRight)"/>
+    <polygon points="80,154 112,170 80,186 48,170" fill="#fffdf6"/>
+
+    <path d="M50 184L58 180L58 152L50 156Z" fill="#1d86a8" stroke="#223247" stroke-width=".9"/>
+    <path d="M60 179L68 175L68 149L60 153Z" fill="#42c2d7" opacity=".85" stroke="#223247" stroke-width=".9"/>
+    <path d="M70 174L76 171L76 147L70 150Z" fill="#1d86a8" opacity=".9" stroke="#223247" stroke-width=".9"/>
+    <path d="M84 173L92 177L92 150L84 146Z" fill="#8ef1f8" opacity=".85" stroke="#223247" stroke-width=".9"/>
+    <path d="M94 178L102 183L102 153L94 149Z" fill="#44c7dc" opacity=".9" stroke="#223247" stroke-width=".9"/>
+    <path d="M104 183L110 187L110 156L104 152Z" fill="#1b809f" opacity=".9" stroke="#223247" stroke-width=".9"/>
+
+    <path d="M44 188L80 206L116 188" fill="none" stroke="#fffdf6" stroke-width="2"/>
+    <path d="M48 170L80 186L112 170" fill="none" stroke="url(#cbGold)" stroke-width="1.8"/>
+    <path d="M48 148L80 166L112 148" fill="none" stroke="#fffdf6" stroke-width="2.4"/>
+  </g>
+
+  <g id="bank-portico" stroke="#223247" stroke-width="1.2">
+    <polygon points="58,180 80,192 80,156 58,144" fill="#fbf5e7"/>
+    <polygon points="80,192 102,180 102,144 80,156" fill="#fffdf6"/>
+    <polygon points="80,140 102,152 80,164 58,152" fill="#fffdf6"/>
+    <g fill="#f6edd9" stroke="#223247" stroke-width="1">
+      <path d="M60 178L64 176L64 149L60 151Z"/>
+      <path d="M66 175L70 173L70 147L66 149Z"/>
+      <path d="M72 172L76 170L76 145L72 147Z"/>
+      <path d="M84 171L88 173L88 146L84 144Z"/>
+      <path d="M90 174L94 176L94 148L90 146Z"/>
+      <path d="M96 177L100 179L100 150L96 148Z"/>
+    </g>
+    <path d="M58 152L80 164L102 152" fill="none" stroke="url(#cbGold)" stroke-width="2"/>
+    <path d="M80 143L102 155L80 167L58 155Z" fill="#f4ebd8" opacity=".75"/>
+    <path d="M84 174L96 168L96 182L84 188Z" fill="#123f5b" stroke="#8a641d" stroke-width="1"/>
+    <path d="M87 172L93 169L93 181L87 184Z" fill="#65dfec" opacity=".65"/>
+  </g>
+
+  <g id="bank-dome">
+    <ellipse cx="80" cy="147" rx="21" ry="10.5" fill="#d9cfbd" stroke="#223247" stroke-width="1.2"/>
+    <path d="M59 147C59 122 101 122 101 147C94 153 66 153 59 147Z" fill="url(#cbGoldDome)" stroke="#223247" stroke-width="1.8"/>
+    <g fill="none" stroke="#8a641d" stroke-width=".8" opacity=".8">
+      <path d="M64 145C64 128 70 124 74 124M72 146C72 126 76 122 80 122M80 147C80 124 86 122 90 124M88 146C88 127 94 126 97 129"/>
+    </g>
+    <path d="M80 123V108" stroke="#b8862f" stroke-width="2"/>
+    <path d="M80 108V104" stroke="#ffe9a1" stroke-width="1.4"/>
+    <circle cx="80" cy="102" r="2.6" fill="#fff3b8" stroke="#b8862f" stroke-width=".8"/>
+    <path d="M76 108L80 105L84 108L80 111Z" fill="#fff3b8" stroke="#b8862f" stroke-width=".6"/>
+    <path d="M59 147C66 154 94 154 101 147" fill="none" stroke="#fff3b8" stroke-width="1.2"/>
+  </g>
+
+  <g id="bank-flags">
+    <path d="M38 186V160" stroke="#223247" stroke-width="1.3"/>
+    <path d="M38 160L50 163L38 167Z" fill="#e63946" stroke="#223247" stroke-width=".6"/>
+    <path d="M38 164L50 167L38 171Z" fill="#fff" stroke="#223247" stroke-width=".6"/>
+    <path d="M122 184V158" stroke="#223247" stroke-width="1.3"/>
+    <path d="M122 158L134 161L122 165Z" fill="#e63946" stroke="#223247" stroke-width=".6"/>
+    <path d="M122 162L134 165L122 169Z" fill="#fff" stroke="#223247" stroke-width=".6"/>
+  </g>
+
+  <g id="bank-glints" fill="#ffffff" opacity=".6">
+    <rect x="61" y="180" width="5" height="2" transform="rotate(27 61 180)"/>
+    <rect x="94" y="172" width="4" height="2" transform="rotate(-27 94 172)"/>
+    <rect x="76" y="188" width="4" height="2" transform="rotate(27 76 188)"/>
+  </g>
+</svg>

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="sxTitle sxDesc">
+  <title id="sxTitle">Bursa Nusantara — bursa perdagangan modern</title>
+  <desc id="sxDesc">Bursa dengan menara kaca bersudut, pita ticker saham, cincin emas, tangga upacara, air mancur, dan pohon palem.</desc>
+
+  <defs>
+    <linearGradient id="sxGlassLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#063f5d"/>
+      <stop offset=".55" stop-color="#137a9c"/>
+      <stop offset="1" stop-color="#36c0d3"/>
+    </linearGradient>
+    <linearGradient id="sxGlassRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7df0f8"/>
+      <stop offset=".5" stop-color="#2cb4cc"/>
+      <stop offset="1" stop-color="#0a5b7b"/>
+    </linearGradient>
+    <linearGradient id="sxStoneLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c3cbd4"/>
+      <stop offset="1" stop-color="#eef3f8"/>
+    </linearGradient>
+    <linearGradient id="sxStoneRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d4dce5"/>
+    </linearGradient>
+    <linearGradient id="sxGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4ba"/>
+      <stop offset=".48" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#ac7a24"/>
+    </linearGradient>
+    <linearGradient id="sxScreen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#071d2c"/>
+      <stop offset="1" stop-color="#0d3347"/>
+    </linearGradient>
+    <linearGradient id="sxWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b6f8ff"/>
+      <stop offset="1" stop-color="#2288ae"/>
+    </linearGradient>
+    <radialGradient id="sxShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="sxFloorsLeft" width="10" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0L10 5" stroke="#d3fbff" stroke-width=".7" opacity=".5"/>
+    </pattern>
+    <pattern id="sxFloorsRight" width="10" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 5L10 0" stroke="#f1ffff" stroke-width=".7" opacity=".55"/>
+    </pattern>
+    <clipPath id="sxLeftClip"><polygon points="40,194 80,214 80,80 52,92"/></clipPath>
+    <clipPath id="sxRightClip"><polygon points="80,214 120,194 108,84 80,80"/></clipPath>
+    <g id="sxPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="84" cy="219" rx="61" ry="21" fill="url(#sxShadow)"/>
+    <path d="M80 191L146 220L80 238L14 210Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="plaza">
+    <path d="M80 183L134 208L80 233L26 208Z" fill="#e9e5da" stroke="#b9b19f" stroke-width="1.2"/>
+    <path d="M80 189L126 208L80 228L34 208Z" fill="none" stroke="#c9bda0" stroke-width="1.2" stroke-dasharray="4 4"/>
+    <path d="M80 197L111 208L80 220L49 208Z" fill="#f7f2e4" stroke="#b9b19f" stroke-width="1"/>
+    <ellipse cx="110" cy="222" rx="14" ry="6.5" fill="url(#sxWater)" stroke="#223247" stroke-width="1.2"/>
+    <ellipse cx="110" cy="220" rx="10" ry="4.2" fill="#d0f9ff" opacity=".7"/>
+    <path d="M110 219C107 213 110 208 114 205C114 212 113 216 110 219Z" fill="#e1fdff" opacity=".9"/>
+    <use href="#sxPalm" transform="translate(28 211) scale(.92)"/>
+    <use href="#sxPalm" transform="translate(134 204) scale(.8)"/>
+    <use href="#sxPalm" transform="translate(22 218) scale(.58)"/>
+    <path d="M60 220L72 214L79 217L67 223Z" fill="#8fd06a" opacity=".8"/>
+  </g>
+
+  <g id="podium" stroke="#223247" stroke-width="1.8" stroke-linejoin="round">
+    <polygon points="30,192 80,217 80,231 30,206" fill="url(#sxStoneLeft)"/>
+    <polygon points="80,217 130,192 130,206 80,231" fill="url(#sxStoneRight)"/>
+    <polygon points="80,167 130,192 80,217 30,192" fill="#fffdf7"/>
+    <path d="M30 192L80 217L130 192" fill="none" stroke="url(#sxGold)" stroke-width="2.2"/>
+    <path d="M34 204L80 228L126 204" fill="none" stroke="#c9a227" stroke-width="1" opacity=".75"/>
+    <path d="M78 211L98 201L98 218L78 228Z" fill="#123f5b"/>
+    <path d="M78 211L98 201L98 218L78 228Z" fill="none" stroke="#f0d27a" stroke-width="1.5"/>
+    <path d="M74 208L102 194L107 198L79 212Z" fill="url(#sxGold)" stroke="#8a641d" stroke-width="1"/>
+    <path d="M86 210L96 205L96 216L86 221Z" fill="#5ddfee" opacity=".7"/>
+    <path d="M82 215L94 209" stroke="#fff" stroke-width="1.3"/>
+    <path d="M84 219L94 213" stroke="#8feaf5" stroke-width=".9"/>
+    <path d="M38 201L48 196L48 204L38 209Z" fill="#7fe7f4" opacity=".78"/>
+    <path d="M108 199L120 193L120 201L108 207Z" fill="#7fe7f4" opacity=".78"/>
+    <path d="M86 225L110 213L110 218L86 230Z" fill="#f8f2e3" stroke="#b9b19f" stroke-width=".8"/>
+    <path d="M88 221L108 211L108 214L88 224Z" fill="#efe8d8" stroke="#b9b19f" stroke-width=".7"/>
+  </g>
+
+  <g id="exchange-tower">
+    <polygon points="40,194 80,214 80,80 52,92" fill="url(#sxGlassLeft)" stroke="#223247" stroke-width="1.8"/>
+    <polygon points="80,214 120,194 108,84 80,80" fill="url(#sxGlassRight)" stroke="#223247" stroke-width="1.8"/>
+    <polygon points="40,194 80,214 80,80 52,92" fill="url(#sxFloorsLeft)"/>
+    <polygon points="80,214 120,194 108,84 80,80" fill="url(#sxFloorsRight)"/>
+    <g clip-path="url(#sxLeftClip)" stroke="#e9feff" stroke-width=".7" opacity=".34">
+      <path d="M44 70V204M52 70V204M60 70V204M68 70V204M76 70V204M84 70V204M92 70V204"/>
+    </g>
+    <g clip-path="url(#sxRightClip)" stroke="#f4ffff" stroke-width=".7" opacity=".34">
+      <path d="M86 70V204M94 70V204M102 70V204M110 70V204M118 70V204"/>
+    </g>
+    <polygon points="83,207 93,202 92,108 83,112" fill="#ffffff" opacity=".13"/>
+    <path d="M52 92L80 80L108 84" fill="none" stroke="url(#sxGold)" stroke-width="2.4"/>
+    <path d="M80 80V70" stroke="#b8862f" stroke-width="1.6"/>
+    <circle cx="80" cy="67" r="2.4" fill="#ffe9a1" stroke="#b8862f" stroke-width=".7"/>
+
+    <g id="ticker">
+      <path d="M34 178L80 200L126 177L125 184L80 207L34 185Z" fill="url(#sxScreen)" stroke="#223247" stroke-width="1.2"/>
+      <g fill="#57e389">
+        <rect x="40" y="180" width="4" height="3" transform="rotate(27 40 180)"/>
+        <rect x="48" y="184" width="4" height="2" transform="rotate(27 48 184)"/>
+        <rect x="56" y="187" width="4" height="4" transform="rotate(27 56 187)"/>
+        <rect x="64" y="191" width="4" height="3" transform="rotate(27 64 191)"/>
+        <rect x="72" y="194" width="4" height="5" transform="rotate(27 72 194)"/>
+      </g>
+      <g fill="#ff7a6e">
+        <rect x="90" y="196" width="4" height="3" transform="rotate(-27 90 196)"/>
+        <rect x="98" y="192" width="4" height="4" transform="rotate(-27 98 192)"/>
+        <rect x="106" y="189" width="4" height="2" transform="rotate(-27 106 189)"/>
+        <rect x="114" y="185" width="4" height="5" transform="rotate(-27 114 185)"/>
+        <rect x="120" y="182" width="4" height="3" transform="rotate(-27 120 182)"/>
+      </g>
+      <path d="M40 182L52 188L64 192L78 199L92 197L104 192L118 185" fill="none" stroke="#ffe9a1" stroke-width="1" opacity=".9"/>
+      <circle cx="80" cy="199" r="1.4" fill="#fff"/>
+    </g>
+
+    <g id="gold-ring">
+      <ellipse cx="80" cy="102" rx="15" ry="8" fill="none" stroke="#b8862f" stroke-width="5"/>
+      <ellipse cx="80" cy="102" rx="15" ry="8" fill="none" stroke="url(#sxGold)" stroke-width="3"/>
+      <path d="M72 107L80 97L88 107" fill="none" stroke="#fff4ba" stroke-width="2"/>
+      <path d="M80 97V87" stroke="#fff4ba" stroke-width="2"/>
+    </g>
+  </g>
+
+  <g id="plaza-sculpture">
+    <circle cx="50" cy="216" r="10" fill="none" stroke="#b8862f" stroke-width="3"/>
+    <circle cx="50" cy="216" r="10" fill="none" stroke="url(#sxGold)" stroke-width="1.6"/>
+    <path d="M44 220L50 209L56 220" fill="none" stroke="#ffe9a1" stroke-width="1.6"/>
+    <path d="M50 209V201" stroke="#ffe9a1" stroke-width="1.6"/>
+    <ellipse cx="50" cy="219" rx="12" ry="4" fill="#c9a227" opacity=".25"/>
+  </g>
+
+  <g id="glints" fill="#ffffff" opacity=".65">
+    <rect x="57" y="158" width="5" height="2" transform="rotate(27 57 158)"/>
+    <rect x="94" y="146" width="4" height="2" transform="rotate(-27 94 146)"/>
+    <rect x="72" y="118" width="4" height="2" transform="rotate(27 72 118)"/>
+    <rect x="88" y="170" width="4" height="2" transform="rotate(-27 88 170)"/>
+  </g>
+</svg>

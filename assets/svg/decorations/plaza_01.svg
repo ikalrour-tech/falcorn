@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-labelledby="pzTitle pzDesc">
+  <title id="pzTitle">Plaza &amp; Trotoar</title>
+  <desc id="pzDesc">Petak plaza berpaving dengan trotoar, pot tanaman palem, bangku, dan lampu taman. Digambar isometrik 2:1.</desc>
+  <defs>
+    <linearGradient id="pzStone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset=".55" stop-color="#efe6d2"/>
+      <stop offset="1" stop-color="#d3c7ad"/>
+    </linearGradient>
+    <linearGradient id="pzCurb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b7ab92"/>
+      <stop offset="1" stop-color="#e6ddc9"/>
+    </linearGradient>
+    <linearGradient id="pzTrunk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5e3c1c"/>
+      <stop offset=".6" stop-color="#a06c36"/>
+      <stop offset="1" stop-color="#d6a867"/>
+    </linearGradient>
+    <linearGradient id="pzFrondA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#86dd67"/>
+      <stop offset="1" stop-color="#2f8f43"/>
+    </linearGradient>
+    <linearGradient id="pzFrondB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#65c95a"/>
+      <stop offset="1" stop-color="#1f7237"/>
+    </linearGradient>
+    <linearGradient id="pzWood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d6a867"/>
+      <stop offset="1" stop-color="#8a5a2b"/>
+    </linearGradient>
+    <radialGradient id="pzShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#173b2c" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#173b2c" stop-opacity="0"/>
+    </radialGradient>
+    <g id="pzPalm">
+      <path d="M0 0C-1 -9 -3 -18 -1 -27" fill="none" stroke="url(#pzTrunk)" stroke-width="3" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".6">
+        <path d="M-1 -27C-11 -36 -20 -36 -26 -31C-15 -33 -7 -29 -2 -25Z" fill="url(#pzFrondB)"/>
+        <path d="M-1 -27C-8 -40 -17 -44 -24 -42C-14 -38 -6 -32 -1 -26Z" fill="url(#pzFrondA)"/>
+        <path d="M-1 -27C2 -40 0 -47 -4 -51C-4 -42 -2 -33 0 -25Z" fill="url(#pzFrondB)"/>
+        <path d="M-1 -27C9 -38 18 -40 25 -35C15 -33 6 -28 1 -25Z" fill="url(#pzFrondA)"/>
+        <path d="M-1 -27C11 -29 21 -25 26 -19C15 -23 6 -24 0 -25Z" fill="url(#pzFrondB)"/>
+      </g>
+      <circle cx="-2" cy="-25" r="1.6" fill="#c9932f" stroke="#223247" stroke-width=".5"/>
+    </g>
+  </defs>
+
+  <ellipse cx="82" cy="145" rx="56" ry="13" fill="url(#pzShadow)"/>
+
+  <g id="paving" stroke="#223247" stroke-width="1.1" stroke-linejoin="round">
+    <polygon points="80,99 141,129 80,159 19,129" fill="#b9ad94"/>
+    <polygon points="80,103 135,129 80,155 25,129" fill="#e0d6c1"/>
+    <polygon points="80,106 131,129 80,152 29,129" fill="url(#pzStone)"/>
+    <path d="M29 129L80 152L131 129" fill="none" stroke="#f7f0dd" stroke-width="1.2"/>
+    <g stroke="#cdbfa3" stroke-width=".6" opacity=".8">
+      <path d="M52 118L108 140M41 124L120 140M71 113L131 135M92 123L120 108M60 120L105 101M80 130L129 111M48 131L86 107M35 137L70 110"/>
+      <path d="M35 121L70 148M48 116L86 140M60 111L105 139M71 108L118 131M92 109L131 116"/>
+    </g>
+    <path d="M80 112L122 129L80 146L38 129Z" fill="none" stroke="#f4ecda" stroke-width="1.2"/>
+    <ellipse cx="80" cy="129" rx="22" ry="11" fill="#f8f1e0" stroke="#c9b98f" stroke-width="1"/>
+    <ellipse cx="80" cy="129" rx="16" ry="8" fill="none" stroke="#dac9a2" stroke-width=".8" stroke-dasharray="3 2"/>
+    <ellipse cx="80" cy="129" rx="6" ry="3" fill="#e9dcc0" stroke="#c9b98f" stroke-width=".7"/>
+  </g>
+
+  <g id="planter-left">
+    <polygon points="44,116 56,122 44,128 32,122" fill="#f5eddd" stroke="#223247" stroke-width="1"/>
+    <polygon points="32,122 44,128 44,134 32,128" fill="#d8cbb1" stroke="#223247" stroke-width="1"/>
+    <polygon points="44,128 56,122 56,128 44,134" fill="#ece1cb" stroke="#223247" stroke-width="1"/>
+    <ellipse cx="44" cy="121.5" rx="10" ry="4.5" fill="#5a4630" stroke="#223247" stroke-width=".8"/>
+    <use href="#pzPalm" transform="translate(44 121) scale(.78)"/>
+  </g>
+
+  <g id="planter-right">
+    <polygon points="112,113 122,118 112,123 102,118" fill="#f5eddd" stroke="#223247" stroke-width="1"/>
+    <polygon points="102,118 112,123 112,128 102,123" fill="#d8cbb1" stroke="#223247" stroke-width="1"/>
+    <polygon points="112,123 122,118 122,123 112,128" fill="#ece1cb" stroke="#223247" stroke-width="1"/>
+    <ellipse cx="112" cy="118" rx="8" ry="3.6" fill="#5a4630" stroke="#223247" stroke-width=".8"/>
+    <use href="#pzPalm" transform="translate(112 118) scale(.6)"/>
+  </g>
+
+  <g id="bench" stroke="#223247" stroke-width=".9" stroke-linejoin="round">
+    <polygon points="92,141 114,131 122,135 100,145" fill="url(#pzWood)"/>
+    <polygon points="100,145 122,135 122,139 100,149" fill="#8a5a2b"/>
+    <polygon points="92,141 114,131 114,134 92,144" fill="#e0b979"/>
+    <path d="M96 146L96 151M108 141L108 146M116 137L116 142" stroke="#4b5563" stroke-width="1.5"/>
+    <path d="M114 131L118 129L126 132L122 135" fill="#b07d3d"/>
+  </g>
+
+  <g id="garden-lamp">
+    <path d="M126 122V100" stroke="#3f4b56" stroke-width="2"/>
+    <path d="M126 100C126 96 129 94 133 94" fill="none" stroke="#3f4b56" stroke-width="2"/>
+    <path d="M130 94H136L134 89H132Z" fill="#ffe9a1" stroke="#223247" stroke-width=".8"/>
+    <ellipse cx="133" cy="94" rx="9" ry="4.5" fill="#fff2b8" opacity=".25"/>
+    <ellipse cx="126" cy="122" rx="4" ry="1.5" fill="#3f4b56" stroke="#223247" stroke-width=".5"/>
+  </g>
+
+  <g id="trash-bin">
+    <polygon points="70,140 76,143 70,146 64,143" fill="#2a9d8f" stroke="#223247" stroke-width=".8"/>
+    <polygon points="64,143 70,146 70,151 64,148" fill="#1e7c72" stroke="#223247" stroke-width=".8"/>
+    <polygon points="70,146 76,143 76,148 70,151" fill="#37b3a6" stroke="#223247" stroke-width=".8"/>
+  </g>
+</svg>

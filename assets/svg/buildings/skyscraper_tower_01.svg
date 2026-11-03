@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 240" width="160" height="240" role="img" aria-labelledby="skTitle skDesc">
+  <title id="skTitle">Menara Nusantara — gedung pencakar langit</title>
+  <desc id="skDesc">Menara kaca biru bertingkat dengan puncak emas, taman dasar, air mancur, dan pohon palem. Digambar isometrik 2:1.</desc>
+
+  <defs>
+    <linearGradient id="skGlassLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0a4b6f"/>
+      <stop offset=".55" stop-color="#1b83ab"/>
+      <stop offset="1" stop-color="#48c5df"/>
+    </linearGradient>
+    <linearGradient id="skGlassRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8ef2fa"/>
+      <stop offset=".45" stop-color="#38bdd9"/>
+      <stop offset="1" stop-color="#0e6d95"/>
+    </linearGradient>
+    <linearGradient id="skCrownGlass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8fbff"/>
+      <stop offset=".6" stop-color="#50cfe6"/>
+      <stop offset="1" stop-color="#147fa7"/>
+    </linearGradient>
+    <linearGradient id="skStoneLeft" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfc4aa"/>
+      <stop offset="1" stop-color="#efe6cf"/>
+    </linearGradient>
+    <linearGradient id="skStoneRight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff9ea"/>
+      <stop offset="1" stop-color="#e5d9bd"/>
+    </linearGradient>
+    <linearGradient id="skGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff0ae"/>
+      <stop offset=".5" stop-color="#e9c46a"/>
+      <stop offset="1" stop-color="#b8862f"/>
+    </linearGradient>
+    <linearGradient id="skWater" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ef1ff"/>
+      <stop offset="1" stop-color="#2a9bc6"/>
+    </linearGradient>
+    <radialGradient id="skBeacon" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff8c4" stop-opacity="1"/>
+      <stop offset=".35" stop-color="#ffd76a" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#ffd76a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="skShadow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#18332a" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#18332a" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="skFloorsLeft" width="10" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 0L10 5" stroke="#ccf9ff" stroke-width=".7" opacity=".56"/>
+    </pattern>
+    <pattern id="skFloorsRight" width="10" height="5" patternUnits="userSpaceOnUse">
+      <path d="M0 5L10 0" stroke="#f0ffff" stroke-width=".7" opacity=".6"/>
+    </pattern>
+
+    <clipPath id="skFaceLeft">
+      <polygon points="42,192 80,211 80,125 50,110"/>
+      <polygon points="50,110 80,125 80,75 58,64"/>
+      <polygon points="58,64 80,75 80,55 66,48"/>
+    </clipPath>
+    <clipPath id="skFaceRight">
+      <polygon points="80,211 118,192 110,110 80,125"/>
+      <polygon points="80,125 110,110 102,64 80,75"/>
+      <polygon points="80,75 102,64 94,48 80,55"/>
+    </clipPath>
+
+    <g id="skPalm">
+      <path d="M0 0C-2 -8 -1 -16 0 -24" fill="none" stroke="#8a5a2b" stroke-width="2.6" stroke-linecap="round"/>
+      <g stroke="#223247" stroke-width=".65">
+        <path d="M0 -24C-12 -32 -20 -28 -25 -22C-14 -25 -7 -22 0 -21Z" fill="#3f9b4f"/>
+        <path d="M0 -24C-10 -36 -18 -38 -24 -36C-13 -33 -7 -27 0 -22Z" fill="#57b765"/>
+        <path d="M0 -24C10 -36 18 -37 24 -34C13 -31 7 -26 0 -22Z" fill="#3f9b4f"/>
+        <path d="M0 -24C12 -28 20 -26 25 -20C14 -22 7 -21 0 -21Z" fill="#4daa5b"/>
+        <path d="M0 -24C2 -34 0 -40 -3 -45C-5 -36 -4 -29 0 -22Z" fill="#57b765"/>
+      </g>
+      <circle cx="0" cy="-24" r="2" fill="#c9a227" stroke="#223247" stroke-width=".6"/>
+    </g>
+  </defs>
+
+  <g id="shadow">
+    <ellipse cx="84" cy="218" rx="60" ry="21" fill="url(#skShadow)"/>
+    <path d="M80 190L146 220L80 239L14 209Z" fill="#173b2c" opacity=".1"/>
+  </g>
+
+  <g id="plaza">
+    <path d="M80 184L131 208L80 233L29 208Z" fill="#efe7d3" stroke="#c9bda0" stroke-width="1.2"/>
+    <path d="M80 188L125 208L80 229L35 208Z" fill="none" stroke="#d8c79c" stroke-width="1.4" stroke-dasharray="4 4"/>
+    <path d="M80 196L112 208L80 221L48 208Z" fill="#f9f3e3" stroke="#c9bda0" stroke-width="1"/>
+    <ellipse cx="108" cy="222" rx="14" ry="6.5" fill="url(#skWater)" stroke="#223247" stroke-width="1.2"/>
+    <ellipse cx="108" cy="220" rx="10" ry="4.2" fill="#c4f6ff" opacity=".7"/>
+    <path d="M108 219C105 213 108 208 112 205C112 211 111 215 108 219Z" fill="#c4f6ff" opacity=".85"/>
+    <ellipse cx="45" cy="219" rx="10" ry="4" fill="#d7fbff" opacity=".45"/>
+    <use href="#skPalm" transform="translate(30 209) scale(.95)"/>
+    <use href="#skPalm" transform="translate(132 203) scale(.78)"/>
+    <use href="#skPalm" transform="translate(24 217) scale(.6)"/>
+  </g>
+
+  <g id="podium" stroke="#223247" stroke-width="1.7" stroke-linejoin="round">
+    <polygon points="28,192 80,218 80,234 28,208" fill="url(#skStoneLeft)"/>
+    <polygon points="80,218 132,192 132,208 80,234" fill="url(#skStoneRight)"/>
+    <polygon points="80,166 132,192 80,218 28,192" fill="#fffaf0"/>
+    <path d="M28 192L80 218L132 192" fill="none" stroke="url(#skGold)" stroke-width="2.4"/>
+    <path d="M29 207L80 233L131 207" fill="none" stroke="#c9a227" stroke-width="1.2" opacity=".8"/>
+    <path d="M84 214L98 206L98 221L84 229Z" fill="#143c5b"/>
+    <path d="M84 214L98 206L98 221L84 229Z" fill="none" stroke="#f0d27a" stroke-width="1.4"/>
+    <path d="M94 210L98 208L98 221L94 223Z" fill="#59d6e8" opacity=".75"/>
+    <path d="M78 212L102 200L106 204L82 216Z" fill="url(#skGold)" stroke="#8a641d" stroke-width="1"/>
+    <path d="M35 205L45 200L45 208L35 213Z" fill="#7fe7f4" opacity=".8" stroke="#223247" stroke-width="1"/>
+    <path d="M104 198L114 193L114 200L104 205Z" fill="#7fe7f4" opacity=".8" stroke="#223247" stroke-width="1"/>
+    <path d="M80 168L96 176L80 184L64 176Z" fill="#d9b25c" stroke="#8a641d" stroke-width=".8" opacity=".9"/>
+  </g>
+
+  <g id="tower">
+    <g id="lower-shaft">
+      <polygon points="42,192 80,211 80,125 50,110" fill="url(#skGlassLeft)" stroke="#223247" stroke-width="1.7"/>
+      <polygon points="80,211 118,192 110,110 80,125" fill="url(#skGlassRight)" stroke="#223247" stroke-width="1.7"/>
+      <polygon points="42,192 80,211 80,125 50,110" fill="url(#skFloorsLeft)"/>
+      <polygon points="80,211 118,192 110,110 80,125" fill="url(#skFloorsRight)"/>
+      <g clip-path="url(#skFaceLeft)" stroke="#e7fdff" stroke-width=".7" opacity=".32">
+        <path d="M54 60V200M62 60V200M70 60V200M78 60V200M86 60V200M94 60V200M102 60V200"/>
+      </g>
+      <g clip-path="url(#skFaceRight)" stroke="#f2ffff" stroke-width=".7" opacity=".32">
+        <path d="M86 60V200M94 60V200M102 60V200M110 60V200M118 60V200M126 60V200"/>
+      </g>
+      <polygon points="83,201 92,197 92,119 83,123" fill="#ffffff" opacity=".14"/>
+      <path d="M46 151L80 168L114 151" fill="none" stroke="#f6df9f" stroke-width="1.5" opacity=".9"/>
+      <path d="M44 172L80 190L116 172" fill="none" stroke="#eafaff" stroke-width="1" opacity=".45"/>
+      <path d="M50 110L80 125L110 110" fill="none" stroke="#fff3bd" stroke-width="2"/>
+    </g>
+
+    <g id="mid-shaft">
+      <polygon points="50,110 80,125 80,75 58,64" fill="url(#skGlassLeft)" stroke="#223247" stroke-width="1.7"/>
+      <polygon points="80,125 110,110 102,64 80,75" fill="url(#skGlassRight)" stroke="#223247" stroke-width="1.7"/>
+      <polygon points="50,110 80,125 80,75 58,64" fill="url(#skFloorsLeft)"/>
+      <polygon points="80,125 110,110 102,64 80,75" fill="url(#skFloorsRight)"/>
+      <polygon points="83,118 92,114 92,82 83,86" fill="#ffffff" opacity=".15"/>
+      <path d="M54 87L80 100L106 87" fill="none" stroke="#f6df9f" stroke-width="1.4" opacity=".9"/>
+      <path d="M20 60" opacity="0"/>
+    </g>
+
+    <g id="crown">
+      <polygon points="58,64 80,75 80,55 66,48" fill="url(#skCrownGlass)" stroke="#223247" stroke-width="1.5"/>
+      <polygon points="80,75 102,64 94,48 80,55" fill="#a9f2f9" stroke="#223247" stroke-width="1.5"/>
+      <polygon points="80,41 94,48 80,55 66,48" fill="url(#skGold)" stroke="#223247" stroke-width="1.4"/>
+      <path d="M66 48L80 55L94 48" fill="none" stroke="#fff3bd" stroke-width="1.2"/>
+      <path d="M80 42V16" stroke="#b8862f" stroke-width="2.2"/>
+      <path d="M80 42V16" stroke="#ffe9a1" stroke-width=".8"/>
+      <circle cx="80" cy="14" r="8" fill="url(#skBeacon)" opacity=".85"/>
+      <circle cx="80" cy="14" r="2.4" fill="#fff8c4" stroke="#b8862f" stroke-width=".8"/>
+      <path d="M66 48L58 42L66 38L74 42Z" fill="#e9c46a" stroke="#223247" stroke-width=".9"/>
+      <path d="M94 48L102 42L94 38L86 42Z" fill="#f4d988" stroke="#223247" stroke-width=".9"/>
+    </g>
+  </g>
+
+  <g id="facade-glints" fill="#eaffff" opacity=".75">
+    <rect x="62" y="132" width="5" height="2" transform="rotate(26 62 132)"/>
+    <rect x="67" y="142" width="5" height="2" transform="rotate(26 67 142)"/>
+    <rect x="78" y="168" width="5" height="2" transform="rotate(-27 78 168)"/>
+    <rect x="88" y="150" width="5" height="2" transform="rotate(-27 88 150)"/>
+    <rect x="65" y="92" width="4" height="2" transform="rotate(26 65 92)"/>
+    <rect x="95" y="84" width="4" height="2" transform="rotate(-27 95 84)"/>
+  </g>
+</svg>
